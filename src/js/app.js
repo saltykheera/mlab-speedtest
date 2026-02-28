@@ -91,8 +91,10 @@ const SpeedTest = {
     // Show/hide privacy message
     this.els.privacyMessage.style.display = this.privacyConsent ? 'none' : 'inline';
 
-    // Show/hide progress vs results
-    this.els.progressSection.style.display = this.measurementComplete ? 'none' : 'block';
+    // Show/hide measurement space and its sections
+    const showMeasurementSpace = this.testRunning || this.measurementComplete;
+    this.els.measurementSpace.style.display = showMeasurementSpace ? 'block' : 'none';
+    this.els.progressSection.style.display = this.testRunning && !this.measurementComplete ? 'block' : 'none';
     this.els.resultsSection.style.display = this.measurementComplete ? 'block' : 'none';
   },
 
