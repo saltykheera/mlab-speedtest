@@ -1,0 +1,342 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <title>Dashboard | Measurement Lab</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="assets/images/mlab_logo_m.ico" />
+  <!-- Inherit the project's main stylesheet (reset, typography, colours, tables, buttons) -->
+  <link rel="stylesheet" href="css/main.css" />
+  <!-- Chart.js CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.2/dist/chart.umd.min.js"></script>
+
+  <style>
+    /* ── Dashboard layout ──────────────────────────────────────── */
+    #main {
+      padding: 3em 3em 2em;
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+
+    /* ── Top bar ───────────────────────────────────────────────── */
+    .topbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 1em;
+      margin-bottom: 2.5em;
+      padding-bottom: 1em;
+      border-bottom: solid 1px rgba(255,255,255,0.15);
+    }
+    .topbar h1 {
+      font-size: 1.75em;
+      margin: 0;
+      color: #ffffff;
+    }
+    .topbar h1 .fa { color: #b74e91; margin-right: 0.35em; }
+    .user-chip {
+      font-size: 0.6em;
+      font-weight: bold;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.35);
+      border: solid 1px rgba(255,255,255,0.15);
+      border-radius: 3em;
+      padding: 0.55em 1.5em;
+    }
+    .user-chip span { color: #b74e91; }
+
+    /* ── Loading overlay ───────────────────────────────────────── */
+    #loading-overlay {
+      position: fixed;
+      inset: 0;
+      background: #312450;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      z-index: 9999;
+      gap: 1em;
+    }
+    #loading-overlay .spinner-ring {
+      width: 52px; height: 52px;
+      border: 3px solid rgba(255,255,255,0.1);
+      border-top-color: #b74e91;
+      border-radius: 50%;
+      animation: fa-spin 0.8s linear infinite;
+    }
+    #loading-overlay p {
+      color: rgba(255,255,255,0.45);
+      font-size: 0.85em;
+      letter-spacing: 0.1em;
+    }
+
+    /* ── Grid ──────────────────────────────────────────────────── */
+    .dash-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2em;
+    }
+    .card-full { grid-column: 1 / -1; }
+
+    @media screen and (max-width: 980px) {
+      .dash-grid { grid-template-columns: 1fr; }
+      #main { padding: 2em; }
+    }
+    @media screen and (max-width: 736px) {
+      #main { padding: 1.5em 1em; }
+    }
+
+    /* ── Card — uses wrapper style from main.css ───────────────── */
+    .card {
+      background: rgba(255,255,255,0.05);
+      border: solid 1px rgba(255,255,255,0.15);
+      border-radius: 0.25em;
+      padding: 1.75em 1.75em 1.5em;
+      overflow: hidden;
+    }
+
+    /* ── Component header ──────────────────────────────────────── */
+    .comp-header {
+      display: flex;
+      align-items: baseline;
+      gap: 1em;
+      flex-wrap: wrap;
+      margin-bottom: 1.25em;
+      padding-bottom: 0.75em;
+      border-bottom: solid 1px rgba(255,255,255,0.1);
+    }
+    .comp-header h2 {
+      font-size: 0.75em;
+      font-weight: bold;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: #ffffff;
+      margin: 0;
+    }
+    .comp-subtitle {
+      font-size: 0.65em;
+      color: rgba(255,255,255,0.35);
+      letter-spacing: 0.05em;
+    }
+
+    /* ── Chart wrapper ─────────────────────────────────────────── */
+    .chart-wrap {
+      position: relative;
+      height: 300px;
+    }
+
+    /* ── Table overrides (on top of main.css table styles) ─────── */
+    .table-wrap {
+      overflow-x: auto;
+      max-height: 360px;
+      overflow-y: auto;
+    }
+    /* Keep main.css table look; just tune sizes for dense data */
+    .table-wrap table {
+      font-size: 0.7em;
+      margin: 0;
+    }
+    .table-wrap thead {
+      position: sticky;
+      top: 0;
+      background: #261c3e;
+      z-index: 2;
+    }
+    .table-wrap th {
+      padding: 0.6em 0.75em;
+      font-size: 1em;
+      white-space: nowrap;
+      user-select: none;
+      cursor: pointer;
+    }
+    .table-wrap th.sorted-asc,
+    .table-wrap th.sorted-desc { color: #b74e91; }
+    .sort-icon { opacity: 0.4; font-size: 0.85em; }
+    .table-wrap td {
+      padding: 0.55em 0.75em;
+      white-space: nowrap;
+    }
+    .table-wrap tr:hover td {
+      background: rgba(255,255,255,0.04);
+    }
+
+    /* ── Badges ────────────────────────────────────────────────── */
+    .badge {
+      display: inline-block;
+      padding: 0.2em 0.65em;
+      border-radius: 3em;
+      font-size: 0.85em;
+      font-weight: bold;
+      letter-spacing: 0.05em;
+      border: solid 1px;
+    }
+    .badge.good  { color: #4caf50; border-color: rgba(76,175,80,0.4);  background: rgba(76,175,80,0.08); }
+    .badge.fair  { color: #ff9800; border-color: rgba(255,152,0,0.4);  background: rgba(255,152,0,0.08); }
+    .badge.poor  { color: #f44336; border-color: rgba(244,67,54,0.4);  background: rgba(244,67,54,0.08); }
+
+    /* ── Controls: day-toggle & metric select ──────────────────── */
+    .controls {
+      display: flex;
+      align-items: center;
+      gap: 0.6em;
+      flex-wrap: wrap;
+      margin-left: auto;
+    }
+    .btn-group { display: flex; }
+    .ctrl-btn {
+      appearance: none;
+      background: transparent;
+      border: solid 1px rgba(255,255,255,0.15) !important;
+      color: rgba(255,255,255,0.45) !important;
+      font-size: 0.55em;
+      font-weight: bold;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      padding: 0 1.4em;
+      height: 2.6em;
+      line-height: 2.6em;
+      cursor: pointer;
+      transition: border-color 0.2s ease, color 0.2s ease, background 0.2s ease;
+    }
+    .btn-group .ctrl-btn:first-child { border-radius: 3em 0 0 3em; }
+    .btn-group .ctrl-btn:last-child  { border-radius: 0 3em 3em 0; border-left: none !important; }
+    .ctrl-btn.active,
+    .ctrl-btn:hover {
+      background: rgba(255,255,255,0.08) !important;
+      border-color: rgba(255,255,255,0.45) !important;
+      color: #ffffff !important;
+    }
+    .ctrl-select {
+      appearance: none;
+      background: rgba(255,255,255,0.05);
+      border: solid 1px rgba(255,255,255,0.15);
+      border-radius: 3em;
+      color: rgba(255,255,255,0.55);
+      font-size: 0.55em;
+      font-weight: bold;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      padding: 0 1.4em;
+      height: 2.6em;
+      outline: none;
+      cursor: pointer;
+    }
+    .ctrl-select:focus {
+      border-color: rgba(255,255,255,0.45);
+      color: #ffffff;
+    }
+
+    /* ── Metric tabs (component 4) ─────────────────────────────── */
+    .metric-tabs {
+      display: flex;
+      gap: 0.4em;
+      flex-wrap: wrap;
+      margin-bottom: 1em;
+    }
+    .mtab {
+      appearance: none;
+      background: transparent;
+      border: solid 1px rgba(255,255,255,0.15) !important;
+      color: rgba(255,255,255,0.35) !important;
+      border-radius: 3em;
+      font-size: 0.5em;
+      font-weight: bold;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      padding: 0 1.6em;
+      height: 2.6em;
+      line-height: 2.6em;
+      cursor: pointer;
+      transition: border-color 0.2s ease, color 0.2s ease, background 0.2s ease;
+    }
+    .mtab.active,
+    .mtab:hover {
+      background: rgba(183,78,145,0.15) !important;
+      border-color: #b74e91 !important;
+      color: #ffffff !important;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Loading overlay -->
+<div id="loading-overlay">
+  <div class="spinner-ring"></div>
+  <p>Loading dashboard data…</p>
+</div>
+
+<!-- Main -->
+<main id="main">
+  <div class="topbar">
+    <h1><i class="fa fa-bar-chart"></i>&nbsp; Network Dashboard</h1>
+    <div class="user-chip">Viewing: <span>User 102</span> (historical view)</div>
+  </div>
+
+  <div class="dash-grid">
+
+    <!-- Summary Table (full-width) -->
+    <div class="card card-full" id="comp-summary"></div>
+
+    <!-- Trend Over Time (full-width) -->
+    <div class="card card-full" id="comp-trend"></div>
+
+    <!-- Avg IQB Score vs Provider -->
+    <div class="card" id="comp-iqb-provider"></div>
+
+    <!-- Metrics vs Provider -->
+    <div class="card" id="comp-metrics-provider"></div>
+
+  </div>
+</main>
+
+<!-- Component scripts -->
+<script src="components/csv-loader.js"></script>
+<script src="components/trend-chart.js"></script>
+<script src="components/provider-iqb-chart.js"></script>
+<script src="components/provider-metrics-chart.js"></script>
+<script src="components/summary-table.js"></script>
+
+<script>
+  (async function init() {
+    // Apply Chart.js global defaults to match main.css palette
+    Chart.defaults.color = 'rgba(255,255,255,0.45)';
+    Chart.defaults.font.family = 'Arial, Helvetica, sans-serif';
+    Chart.defaults.font.size = 11;
+    Chart.defaults.borderColor = 'rgba(255,255,255,0.1)';
+    Chart.defaults.plugins.legend.display = false;
+    Chart.defaults.plugins.tooltip.backgroundColor = '#261c3e';
+    Chart.defaults.plugins.tooltip.borderColor = 'rgba(255,255,255,0.15)';
+    Chart.defaults.plugins.tooltip.borderWidth = 1;
+    Chart.defaults.plugins.tooltip.titleColor = '#ffffff';
+    Chart.defaults.plugins.tooltip.bodyColor = 'rgba(255,255,255,0.55)';
+    Chart.defaults.plugins.tooltip.padding = 10;
+
+    try {
+      const resp = await fetch('assets/temp/Tests.csv');
+      if (!resp.ok) throw new Error(`HTTP ${resp.status} – could not load Tests.csv`);
+      const text = await resp.text();
+      const data = parseCSV(text);
+
+      // Mount components
+      new SummaryTable('comp-summary', data);
+      new TrendChart('comp-trend', data);
+      new ProviderIQBChart('comp-iqb-provider', data);
+      new ProviderMetricsChart('comp-metrics-provider', data);
+
+      // Hide loading overlay
+      document.getElementById('loading-overlay').style.display = 'none';
+    } catch (err) {
+      const overlay = document.getElementById('loading-overlay');
+      overlay.innerHTML = `
+        <i class="fa fa-exclamation-triangle" style="font-size:2rem;color:#f44336"></i>
+        <p style="color:#f44336;margin-top:.5em">${err.message}</p>
+        <p style="color:rgba(255,255,255,0.35);font-size:.75em;margin-top:.25em">
+          Make sure Tests.csv is served from <code>assets/temp/Tests.csv</code>
+        </p>`;
+    }
+  })();
+</script>
+</body>
+</html>

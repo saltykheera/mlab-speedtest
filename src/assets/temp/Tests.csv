@@ -1,0 +1,501 @@
+id,user_id,timestamp,download,upload,latency,loss,iqb_score,country_code,city,subdivision1_name,asn,asn_name
+1,102,2026-01-01 01:00:00,207.11,42.44,38.83,0.73,67.8,CM,Markberg,Oregon,AS35069,"Hunter, Schwartz and Castro Networks"
+2,105,2026-01-01 02:00:00,92.61,32.41,115.2,0.66,45.01,MH,North Danielside,California,AS8600,"Williams, Davis and Walker Networks"
+3,101,2026-01-01 03:00:00,223.59,106.65,101.67,0.33,90.31,HU,North Raymond,Indiana,AS40925,Mitchell Inc Networks
+4,110,2026-01-01 04:00:00,280.31,54.72,36.57,1.22,78.75,CG,North Danielhaven,Mississippi,AS28460,Patterson Group Networks
+5,104,2026-01-01 05:00:00,105.84,18.25,87.03,0.67,85.66,AM,Holtport,Oklahoma,AS16512,Lawson PLC Networks
+6,107,2026-01-01 06:00:00,227.66,94.42,38.26,1.35,44.24,LV,Parkerport,Kansas,AS22996,"Reynolds, Mitchell and Smith Networks"
+7,103,2026-01-01 07:00:00,593.61,214.76,54.02,0.79,52.84,BO,Medinashire,Arizona,AS15697,Berger Group Networks
+8,101,2026-01-01 08:00:00,714.47,106.47,64.19,1.55,97.38,NL,New Debra,Louisiana,AS54873,Williams-Faulkner Networks
+9,101,2026-01-01 09:00:00,88.95,39.05,132.39,0.79,52.47,PK,Lake Chelsea,Vermont,AS38425,"Harrington, Foster and Martin Networks"
+10,103,2026-01-01 10:00:00,423.15,134.96,82.75,1.11,83.29,OM,North Michael,Idaho,AS7780,Ewing Group Networks
+11,107,2026-01-01 11:00:00,135.64,61.2,80.48,0.12,93.82,JP,Smithfort,Georgia,AS47473,Mcgrath-Brewer Networks
+12,109,2026-01-01 12:00:00,149.14,72.96,71.92,0.35,92.15,NE,Lisachester,Kentucky,AS10534,Smith-Lambert Networks
+13,110,2026-01-01 13:00:00,303.95,130.71,87.99,0.66,50.45,DM,Brownside,Alabama,AS39483,"Sanchez, Blair and Cunningham Networks"
+14,102,2026-01-01 14:00:00,383.03,92.13,8.03,0.16,66.93,IS,East Jasonborough,Colorado,AS32136,Schmidt-Dickson Networks
+15,110,2026-01-01 15:00:00,476.79,170.26,87.36,0.0,41.09,CG,Kimfurt,Virginia,AS41809,"Ramos, Diaz and Pena Networks"
+16,105,2026-01-01 16:00:00,449.44,67.89,74.51,1.42,77.27,GY,West Geoffreyburgh,Nevada,AS2512,Mitchell Ltd Networks
+17,110,2026-01-01 17:00:00,210.42,101.9,25.4,1.69,87.54,RS,South Jamesmouth,Utah,AS40603,Elliott LLC Networks
+18,102,2026-01-01 18:00:00,331.52,102.88,19.6,0.23,85.61,BH,Bryanburgh,New Hampshire,AS6101,Jones-Edwards Networks
+19,103,2026-01-01 19:00:00,33.03,4.51,48.46,1.53,81.36,IN,Thomasborough,Wisconsin,AS51867,"King, Owens and Brown Networks"
+20,105,2026-01-01 20:00:00,100.65,20.58,148.65,1.21,48.01,KH,Priceview,Ohio,AS3536,May-Wright Networks
+21,102,2026-01-01 21:00:00,894.3,413.68,21.11,1.91,72.82,BN,Hicksside,Colorado,AS21876,"Levy, Gomez and Henderson Networks"
+22,108,2026-01-01 22:00:00,60.06,12.37,12.35,1.26,71.57,DZ,Reginachester,Georgia,AS8693,Scott Ltd Networks
+23,103,2026-01-01 23:00:00,206.25,25.28,85.96,1.68,92.49,BG,Kaisermouth,Idaho,AS11544,"Vazquez, Haynes and Chavez Networks"
+24,108,2026-01-02 00:00:00,743.59,141.2,115.41,1.73,58.93,AE,Farmerton,South Dakota,AS22491,"Wolf, Vargas and Taylor Networks"
+25,102,2026-01-02 01:00:00,497.23,141.55,103.85,0.85,59.04,GR,Tatefort,Texas,AS33801,Smith-Raymond Networks
+26,102,2026-01-02 02:00:00,434.96,173.28,44.3,0.9,82.49,MU,West Jamesshire,Kentucky,AS10043,Hamilton-Odom Networks
+27,107,2026-01-02 03:00:00,625.69,259.1,71.33,0.63,59.99,BR,Robertland,Florida,AS26969,Drake-Murray Networks
+28,103,2026-01-02 04:00:00,925.85,200.69,101.75,1.22,79.44,MC,East Susanberg,South Dakota,AS57666,Lopez-Johnson Networks
+29,105,2026-01-02 05:00:00,791.19,169.8,52.04,0.84,45.6,RU,Thomasview,Alabama,AS47137,Gonzalez LLC Networks
+30,109,2026-01-02 06:00:00,380.37,123.52,120.62,1.53,80.99,AT,Bradhaven,Wyoming,AS3974,Scott Ltd Networks
+31,110,2026-01-02 07:00:00,564.95,223.1,132.17,0.65,57.91,TV,Robertberg,New Mexico,AS4038,"Lee, Robinson and Jones Networks"
+32,106,2026-01-02 08:00:00,255.62,37.42,105.71,1.11,93.42,BW,Jenniferberg,Hawaii,AS50461,"Ali, Herrera and Wood Networks"
+33,101,2026-01-02 09:00:00,584.44,90.01,68.99,1.77,65.47,CV,Tammyside,Hawaii,AS2599,"Austin, Coleman and Brown Networks"
+34,110,2026-01-02 10:00:00,324.95,90.9,105.82,1.03,42.29,SL,Lake Gene,Missouri,AS8746,"Reed, Jackson and Hudson Networks"
+35,102,2026-01-02 11:00:00,407.61,166.62,46.64,0.4,59.15,IN,Johnsfort,Georgia,AS55496,Ramos-Davis Networks
+36,103,2026-01-02 12:00:00,656.42,224.45,8.84,1.02,46.09,GE,New Allison,Maryland,AS44056,"Le, Jones and Mckenzie Networks"
+37,109,2026-01-02 13:00:00,356.0,76.36,99.27,1.68,58.12,BH,East Sabrina,Alaska,AS39423,Cox-Hayes Networks
+38,109,2026-01-02 14:00:00,194.58,85.08,92.61,1.78,73.78,BR,East Lisastad,Oregon,AS36029,Powell Group Networks
+39,105,2026-01-02 15:00:00,379.3,81.61,144.7,1.7,70.09,UZ,Jamesmouth,Kansas,AS53580,"Lopez, Sweeney and Gardner Networks"
+40,104,2026-01-02 16:00:00,546.32,182.94,56.29,0.95,76.29,SZ,Lake James,Colorado,AS8076,Brown-Gilbert Networks
+41,102,2026-01-02 17:00:00,80.04,21.71,94.47,1.91,66.9,AD,Port Daniel,Maine,AS8144,Parker Inc Networks
+42,106,2026-01-02 18:00:00,406.84,199.94,140.39,0.84,94.8,GW,Matthewsland,New Jersey,AS17495,Mclaughlin-Watson Networks
+43,106,2026-01-02 19:00:00,871.04,328.99,121.94,1.43,61.96,DO,New Jennifer,Ohio,AS52001,Taylor Group Networks
+44,107,2026-01-02 20:00:00,672.04,212.34,60.63,1.67,77.65,AL,Lake Amanda,Maine,AS35630,Edwards-Ramirez Networks
+45,103,2026-01-02 21:00:00,882.53,214.64,32.46,0.17,43.06,MV,Fisherside,Nevada,AS32355,"Robinson, Price and Wilkerson Networks"
+46,101,2026-01-02 22:00:00,905.86,440.04,40.74,0.31,81.38,ZW,Port Justinstad,Wyoming,AS24142,Wilson-Hughes Networks
+47,109,2026-01-02 23:00:00,108.22,22.21,15.21,0.28,47.82,BZ,Jeffreyshire,Vermont,AS2378,Phelps Inc Networks
+48,108,2026-01-03 00:00:00,242.22,79.18,62.32,1.2,86.34,NL,Melissachester,Maine,AS5588,Johnson-Hernandez Networks
+49,104,2026-01-03 01:00:00,227.8,33.1,147.02,1.69,56.43,FI,Davisville,Montana,AS36738,"Elliott, Hall and Young Networks"
+50,105,2026-01-03 02:00:00,185.85,46.42,16.21,1.23,90.46,CG,New Danielport,Mississippi,AS56972,Terry-Morris Networks
+51,108,2026-01-03 03:00:00,517.56,126.12,140.3,0.48,67.97,SR,Williamsmouth,Missouri,AS26032,Reeves-Mendoza Networks
+52,101,2026-01-03 04:00:00,528.6,225.99,55.69,0.4,91.89,HU,Carrollmouth,New York,AS46027,"Campbell, Wyatt and Saunders Networks"
+53,110,2026-01-03 05:00:00,769.45,116.72,47.51,0.93,58.64,UY,Cynthiastad,West Virginia,AS29478,Powers-Sherman Networks
+54,105,2026-01-03 06:00:00,727.43,229.04,58.65,0.56,68.88,PW,Warrenton,Kansas,AS21252,Schneider-West Networks
+55,104,2026-01-03 07:00:00,831.78,393.72,114.45,1.07,88.66,MN,East Tannerport,Hawaii,AS3524,Olson Inc Networks
+56,105,2026-01-03 08:00:00,892.84,401.36,22.81,1.0,52.95,NE,Heatherland,Louisiana,AS45950,Bowen Ltd Networks
+57,107,2026-01-03 09:00:00,877.24,154.69,15.02,1.89,59.13,IQ,Lake Kayla,Montana,AS24915,"Ruiz, Lowe and Garner Networks"
+58,104,2026-01-03 10:00:00,109.63,23.45,103.81,0.64,51.68,TW,Robertshire,Illinois,AS5095,Turner PLC Networks
+59,106,2026-01-03 11:00:00,489.41,139.69,114.17,0.78,95.11,IL,South Charlene,Arizona,AS16958,Walsh-Rojas Networks
+60,104,2026-01-03 12:00:00,73.08,9.68,102.6,0.48,68.84,FR,Kevinchester,Michigan,AS30738,Smith Group Networks
+61,104,2026-01-03 13:00:00,401.28,184.39,81.89,0.93,78.03,TR,East Jonathanfurt,Idaho,AS15103,Barajas and Sons Networks
+62,103,2026-01-03 14:00:00,651.43,284.95,97.46,0.83,49.08,GW,Larrymouth,Alabama,AS56088,"Trevino, Lee and May Networks"
+63,108,2026-01-03 15:00:00,29.64,3.82,21.93,1.57,87.56,VU,East Darleneland,Missouri,AS19094,"Brown, Marquez and Garza Networks"
+64,108,2026-01-03 16:00:00,911.37,333.19,27.2,0.23,77.15,VN,Robertfort,New York,AS23531,Scott-Owens Networks
+65,101,2026-01-03 17:00:00,371.58,44.7,93.32,1.68,74.91,VC,New Johnville,Nevada,AS12379,"Moore, Ryan and Harrington Networks"
+66,106,2026-01-03 18:00:00,327.93,116.37,69.99,1.93,56.15,EE,Port Todd,Pennsylvania,AS42153,Tran PLC Networks
+67,106,2026-01-03 19:00:00,727.38,352.15,114.82,0.12,56.35,GQ,North Elizabethside,North Carolina,AS26598,Rodriguez-Goodman Networks
+68,105,2026-01-03 20:00:00,127.68,54.81,35.9,0.97,89.73,AG,Port Tammy,Michigan,AS59667,Clark LLC Networks
+69,104,2026-01-03 21:00:00,527.78,115.91,61.17,1.69,80.18,IL,North Matthew,Alabama,AS28694,"Williams, Castillo and Kline Networks"
+70,108,2026-01-03 22:00:00,168.67,42.92,5.7,1.14,93.15,AL,North Matthewfort,Texas,AS21860,Dominguez Ltd Networks
+71,106,2026-01-03 23:00:00,610.37,296.35,94.98,1.73,81.04,BS,Reyesfort,New Hampshire,AS48074,"Sellers, Wright and Davis Networks"
+72,108,2026-01-04 00:00:00,564.02,60.45,37.87,1.03,91.09,CN,Nancyberg,Tennessee,AS7099,"Gonzalez, Nicholson and Davis Networks"
+73,104,2026-01-04 01:00:00,77.26,33.23,144.94,0.66,41.26,BR,Phillipsberg,Wisconsin,AS37773,"Perez, Howard and Miller Networks"
+74,107,2026-01-04 02:00:00,361.33,177.29,137.02,1.07,68.93,LU,Port Tammy,Montana,AS15515,Garcia LLC Networks
+75,102,2026-01-04 03:00:00,37.51,11.9,60.3,0.87,62.39,FJ,Lake Deniseburgh,Hawaii,AS24346,Bender Inc Networks
+76,102,2026-01-04 04:00:00,367.84,75.93,26.66,1.64,67.86,SO,South Omar,Colorado,AS59494,Brown-Stewart Networks
+77,106,2026-01-04 05:00:00,223.49,49.15,141.21,1.15,82.79,AD,Tylerland,Oklahoma,AS52159,Barron and Sons Networks
+78,103,2026-01-04 06:00:00,365.52,164.51,129.54,0.58,73.57,KI,Johnnystad,New Jersey,AS59247,Taylor-Roberts Networks
+79,108,2026-01-04 07:00:00,747.76,104.44,8.22,1.92,95.05,TR,Christopherborough,California,AS11173,Young Inc Networks
+80,104,2026-01-04 08:00:00,598.77,109.88,137.37,0.06,46.59,SY,East Joshuafort,Kentucky,AS4399,"Alvarado, Wood and Moreno Networks"
+81,104,2026-01-04 09:00:00,388.6,177.25,20.56,1.03,62.15,SV,Davisside,Alaska,AS51107,"Hill, Aguilar and Flynn Networks"
+82,108,2026-01-04 10:00:00,111.99,48.48,114.17,0.2,44.86,FR,New Davidview,South Dakota,AS42494,Walker Group Networks
+83,103,2026-01-04 11:00:00,451.35,101.98,17.06,0.87,45.71,AT,Jameston,Wyoming,AS37904,Garrett-Stone Networks
+84,103,2026-01-04 12:00:00,831.63,176.43,44.86,0.81,63.84,LK,Princestad,California,AS54214,"Harvey, Howard and Irwin Networks"
+85,102,2026-01-04 13:00:00,397.25,142.36,98.15,1.7,53.66,PH,West Christopher,North Carolina,AS52561,Ramirez PLC Networks
+86,107,2026-01-04 14:00:00,767.75,330.79,53.81,1.45,56.19,AF,Lake Samantha,Alaska,AS59862,"Lam, Ball and Vasquez Networks"
+87,102,2026-01-04 15:00:00,201.1,68.25,108.74,1.6,89.27,SE,North David,New Mexico,AS49223,Stevenson Group Networks
+88,110,2026-01-04 16:00:00,527.42,167.02,94.96,0.36,71.07,DE,East Bradley,Idaho,AS42474,Perry Ltd Networks
+89,109,2026-01-04 17:00:00,832.73,199.85,73.97,0.94,93.07,MZ,Schultzport,Kansas,AS28068,Martinez-Brock Networks
+90,110,2026-01-04 18:00:00,619.81,186.21,84.13,1.17,53.51,GN,Lake Sally,Idaho,AS8847,Kim Inc Networks
+91,106,2026-01-04 19:00:00,502.26,54.81,127.03,1.99,62.61,PL,Stephensstad,Delaware,AS9217,Krueger-Watson Networks
+92,103,2026-01-04 20:00:00,609.41,301.63,111.26,0.74,54.83,CG,Ochoaville,West Virginia,AS28141,Moreno PLC Networks
+93,102,2026-01-04 21:00:00,502.15,142.82,62.22,1.93,92.04,MR,Sarahborough,Massachusetts,AS42712,Fisher Group Networks
+94,103,2026-01-04 22:00:00,125.66,17.99,14.06,0.12,55.21,EC,Hooverton,New Mexico,AS39089,"Lee, Lee and Smith Networks"
+95,104,2026-01-04 23:00:00,198.33,37.76,55.94,1.28,81.94,SE,East Diana,Montana,AS35807,"Thomas, Powell and Horn Networks"
+96,105,2026-01-05 00:00:00,904.43,135.17,28.72,1.87,66.51,SY,Michaeltown,West Virginia,AS30174,"Bond, Wolf and Ruiz Networks"
+97,107,2026-01-05 01:00:00,877.73,170.14,63.08,0.73,40.84,SG,Marcusstad,Nebraska,AS24715,"White, Flores and Richards Networks"
+98,106,2026-01-05 02:00:00,360.04,148.75,122.41,0.35,58.02,PG,Ericfort,Utah,AS2214,Dickson Group Networks
+99,102,2026-01-05 03:00:00,898.34,394.75,70.41,1.29,87.14,KH,North Robertfort,Idaho,AS34261,Curtis-Meyer Networks
+100,102,2026-01-05 04:00:00,940.12,281.77,23.52,1.58,47.03,MR,Lucasview,Texas,AS57423,"Lowe, Wilson and Kelly Networks"
+101,105,2026-01-05 05:00:00,545.86,221.26,83.41,0.37,57.61,MW,New Denisehaven,Idaho,AS59517,Thomas-Webb Networks
+102,105,2026-01-05 06:00:00,161.2,61.06,136.17,0.58,51.93,MV,South Cynthia,New York,AS42992,Martinez-Barber Networks
+103,107,2026-01-05 07:00:00,803.56,338.43,148.19,1.05,61.04,LK,South Allisonmouth,Idaho,AS22453,"Gould, Kennedy and Reynolds Networks"
+104,108,2026-01-05 08:00:00,749.51,257.6,36.83,1.66,91.84,VC,North Holly,Alaska,AS33470,"Garrett, Beasley and Carlson Networks"
+105,108,2026-01-05 09:00:00,563.56,215.02,114.97,1.41,65.05,KE,New Michaelview,Maryland,AS20556,Shelton-Thompson Networks
+106,107,2026-01-05 10:00:00,366.41,60.96,115.39,0.41,49.62,DZ,Kimberlychester,Illinois,AS35501,"Martin, Munoz and Mcgee Networks"
+107,108,2026-01-05 11:00:00,49.06,24.19,10.91,1.67,40.77,RO,East Shelley,Vermont,AS41566,"Taylor, Reynolds and Graham Networks"
+108,105,2026-01-05 12:00:00,270.08,71.57,145.63,1.49,50.65,NP,New Kenneth,California,AS7333,"Hurst, Davis and Rasmussen Networks"
+109,106,2026-01-05 13:00:00,140.97,51.69,62.53,0.09,78.22,CO,Anthonyland,Wisconsin,AS47483,Martinez-Williams Networks
+110,101,2026-01-05 14:00:00,447.52,181.84,116.8,1.56,61.13,HN,Lake Johnborough,Louisiana,AS7925,"Clements, Long and Macias Networks"
+111,104,2026-01-05 15:00:00,150.16,70.66,143.82,0.17,58.18,GH,West Christopherside,Oregon,AS8939,"Bennett, Smith and Black Networks"
+112,108,2026-01-05 16:00:00,911.12,165.09,60.86,1.28,53.54,CV,Herrerashire,Nebraska,AS55875,"Floyd, Simmons and Johnson Networks"
+113,101,2026-01-05 17:00:00,570.95,248.26,104.16,0.58,91.43,CG,Chamberston,Arkansas,AS40708,Green LLC Networks
+114,108,2026-01-05 18:00:00,871.83,416.3,28.85,1.19,83.56,BE,New David,West Virginia,AS42139,Perez-Kelly Networks
+115,107,2026-01-05 19:00:00,915.61,292.82,9.28,1.66,76.54,MN,Grahamview,Wyoming,AS47354,Miller-Barnes Networks
+116,101,2026-01-05 20:00:00,641.8,208.75,56.98,0.13,69.43,HU,New Jonathantown,Nebraska,AS14846,"Hurst, White and Roberts Networks"
+117,101,2026-01-05 21:00:00,157.49,48.44,133.26,1.97,97.96,MX,Lake Nathan,Georgia,AS16404,"Marsh, Murphy and Martinez Networks"
+118,109,2026-01-05 22:00:00,715.89,97.8,51.37,1.82,73.68,GM,Hallstad,New York,AS6546,"Garcia, Cohen and Pennington Networks"
+119,102,2026-01-05 23:00:00,424.52,105.16,42.83,0.3,76.95,VE,Goldenhaven,New York,AS25151,Espinoza-Daniels Networks
+120,101,2026-01-06 00:00:00,744.05,309.67,133.06,1.42,80.81,KI,Baileystad,Kansas,AS59549,"Gilbert, Peterson and Adkins Networks"
+121,108,2026-01-06 01:00:00,775.85,176.51,80.82,0.88,58.84,VN,Pearsonstad,Washington,AS4529,Charles-Gonzales Networks
+122,101,2026-01-06 02:00:00,492.31,72.15,105.4,0.68,52.64,MW,Richardton,Missouri,AS48392,"Cole, Smith and Johnson Networks"
+123,104,2026-01-06 03:00:00,37.23,4.74,121.24,0.08,73.48,PH,Angelaberg,Tennessee,AS15500,Mueller and Sons Networks
+124,105,2026-01-06 04:00:00,875.15,134.5,38.56,1.02,89.27,FR,Belindachester,Ohio,AS11450,Rodriguez Inc Networks
+125,106,2026-01-06 05:00:00,181.73,24.63,24.73,0.58,73.8,MV,North Sharon,Iowa,AS49317,Lopez-Mcpherson Networks
+126,103,2026-01-06 06:00:00,50.29,14.46,65.97,1.31,51.82,PH,East Mark,Florida,AS45238,"Glass, Hardy and Perry Networks"
+127,103,2026-01-06 07:00:00,616.66,239.65,115.42,1.09,42.21,AM,Keithbury,Kentucky,AS20997,Smith PLC Networks
+128,102,2026-01-06 08:00:00,868.21,163.18,48.71,0.89,92.74,AD,Lovefurt,Ohio,AS35111,White-Bell Networks
+129,110,2026-01-06 09:00:00,535.59,79.96,71.57,1.13,81.43,BW,Stacyburgh,Wisconsin,AS12413,Curtis and Sons Networks
+130,103,2026-01-06 10:00:00,283.01,125.81,112.92,1.47,90.6,FR,Port Williamchester,South Carolina,AS7825,Mosley-Haynes Networks
+131,108,2026-01-06 11:00:00,317.77,86.66,60.3,0.46,55.88,PA,Pattersonville,Colorado,AS53829,"Vazquez, Neal and Shannon Networks"
+132,102,2026-01-06 12:00:00,240.76,108.52,51.23,0.79,51.08,MH,Lake Lisamouth,Massachusetts,AS45660,"Fowler, Williams and Ball Networks"
+133,109,2026-01-06 13:00:00,140.45,52.96,115.71,1.4,53.76,PY,New Kelly,North Dakota,AS44272,"Alvarez, Chang and Robertson Networks"
+134,101,2026-01-06 14:00:00,333.68,63.6,21.47,1.18,41.97,ZM,Edwardsbury,Missouri,AS12993,Griffith and Sons Networks
+135,110,2026-01-06 15:00:00,832.17,288.25,145.09,0.19,90.81,TL,Lake Dakota,Missouri,AS41830,Duran and Sons Networks
+136,105,2026-01-06 16:00:00,193.27,39.05,53.38,0.45,98.88,TR,Loriland,Tennessee,AS36206,Moore-Benson Networks
+137,110,2026-01-06 17:00:00,374.61,171.05,22.17,0.39,64.28,PS,Christophermouth,Nebraska,AS25726,Roberts-Best Networks
+138,101,2026-01-06 18:00:00,444.04,60.7,97.69,0.95,93.32,LU,New Cynthiaborough,Florida,AS43934,Smith-Johnson Networks
+139,107,2026-01-06 19:00:00,93.89,35.67,123.84,1.52,92.18,SL,Lake Marc,Massachusetts,AS50797,Shannon LLC Networks
+140,103,2026-01-06 20:00:00,513.93,80.67,78.09,1.37,40.98,GT,Kellyville,Missouri,AS15559,Mendoza Ltd Networks
+141,104,2026-01-06 21:00:00,930.24,395.35,23.06,0.91,71.08,CR,West Yvonneburgh,South Carolina,AS38200,Henson-Owens Networks
+142,105,2026-01-06 22:00:00,914.3,442.81,5.57,0.91,46.82,IL,Port Jessicafurt,Iowa,AS58893,Jones-Dawson Networks
+143,103,2026-01-06 23:00:00,137.02,13.74,35.78,1.71,46.76,ZW,Wagnerside,Washington,AS14813,Jones-Pierce Networks
+144,103,2026-01-07 00:00:00,152.93,61.92,93.16,0.24,94.91,LI,Terryfurt,Massachusetts,AS48339,Stevens and Sons Networks
+145,108,2026-01-07 01:00:00,897.91,299.04,42.96,1.19,83.55,US,Duncanside,Minnesota,AS48386,"Velez, Nelson and Anderson Networks"
+146,110,2026-01-07 02:00:00,325.02,93.07,113.84,0.27,64.66,MU,Lucerostad,Indiana,AS1220,"Larsen, Robinson and Powell Networks"
+147,109,2026-01-07 03:00:00,728.08,264.24,121.97,1.15,78.9,SN,Lake Scottbury,Louisiana,AS3823,"Cox, Woods and Wright Networks"
+148,109,2026-01-07 04:00:00,846.11,147.89,120.32,0.6,68.38,GB,Glennton,Kansas,AS19866,Stevenson Group Networks
+149,109,2026-01-07 05:00:00,862.24,105.14,146.18,1.56,92.3,CI,Cookeport,Missouri,AS19909,"Rice, Weeks and Rosales Networks"
+150,109,2026-01-07 06:00:00,700.63,225.39,111.92,0.13,54.51,TR,Angelamouth,Nebraska,AS51689,Paul-Harrell Networks
+151,105,2026-01-07 07:00:00,467.85,212.65,24.29,1.58,79.84,HN,Karenberg,Michigan,AS13323,Barnes-Mccann Networks
+152,104,2026-01-07 08:00:00,604.37,246.88,109.33,0.75,97.79,MA,Port Gregory,Maryland,AS9561,Bauer-Williams Networks
+153,101,2026-01-07 09:00:00,450.23,201.35,16.55,0.67,73.97,VC,Amandachester,Tennessee,AS26930,"Fowler, Fisher and Allen Networks"
+154,110,2026-01-07 10:00:00,941.57,160.35,114.08,1.08,81.4,TM,New Wayne,Mississippi,AS8065,Schultz-Holden Networks
+155,105,2026-01-07 11:00:00,47.05,8.43,116.7,0.94,54.58,IS,Greenstad,North Carolina,AS49053,Larson-Davis Networks
+156,103,2026-01-07 12:00:00,127.61,17.73,55.81,1.48,82.32,AO,South Amy,Washington,AS55858,"Beltran, Ford and Lynn Networks"
+157,105,2026-01-07 13:00:00,226.34,69.33,57.17,0.19,78.76,TT,Michaelhaven,North Dakota,AS30101,Peters Group Networks
+158,110,2026-01-07 14:00:00,336.32,106.1,90.62,0.75,57.98,CL,New Deborah,Louisiana,AS4271,Hayes-Farley Networks
+159,103,2026-01-07 15:00:00,23.53,3.17,37.86,1.15,51.11,TJ,West Edwardton,North Dakota,AS12504,Johnson Inc Networks
+160,103,2026-01-07 16:00:00,53.44,23.65,79.43,1.98,49.74,CM,North Reginaton,Florida,AS55624,Reed-Gonzalez Networks
+161,109,2026-01-07 17:00:00,494.03,81.4,31.11,0.81,77.93,BS,South Lydia,Maine,AS26037,Velasquez-Patel Networks
+162,109,2026-01-07 18:00:00,371.91,136.82,99.4,0.99,81.96,SY,South Anthony,Vermont,AS1583,Ibarra PLC Networks
+163,102,2026-01-07 19:00:00,699.71,224.29,46.1,1.47,46.23,KZ,West Travis,Oklahoma,AS12175,"Williams, Sanders and Rivera Networks"
+164,106,2026-01-07 20:00:00,371.28,94.17,20.98,1.62,91.51,UA,New Heatherborough,Michigan,AS34026,Keller Group Networks
+165,103,2026-01-07 21:00:00,562.02,245.43,82.07,1.57,87.26,DM,South Steven,Iowa,AS45509,Stewart-Williams Networks
+166,109,2026-01-07 22:00:00,394.03,64.06,21.49,1.7,97.53,CR,Wilsontown,Virginia,AS52365,"Villarreal, Wolf and Romero Networks"
+167,110,2026-01-07 23:00:00,113.57,39.27,77.51,1.48,93.59,CZ,North Willieport,New York,AS8504,Hudson and Sons Networks
+168,108,2026-01-08 00:00:00,371.85,96.99,86.2,1.9,64.13,CG,West Eugenechester,New Jersey,AS23463,Hodge Group Networks
+169,104,2026-01-08 01:00:00,579.48,234.05,33.48,0.7,87.96,SR,West Ashley,Nevada,AS38333,Burns-Aguilar Networks
+170,104,2026-01-08 02:00:00,208.43,83.84,109.49,1.78,92.1,JP,Lake Lauraberg,Ohio,AS31156,Walker and Sons Networks
+171,107,2026-01-08 03:00:00,451.37,155.0,24.89,1.52,85.65,KE,Joneshaven,Indiana,AS42812,Jones PLC Networks
+172,109,2026-01-08 04:00:00,294.33,125.68,104.74,0.36,45.91,GN,Perkinsfurt,Tennessee,AS23054,"Alvarado, Parks and Thomas Networks"
+173,108,2026-01-08 05:00:00,130.02,30.78,19.38,1.31,94.59,IQ,Jadefort,New Jersey,AS34726,Marquez and Sons Networks
+174,106,2026-01-08 06:00:00,94.3,17.12,29.4,0.84,47.04,GA,Emmamouth,Alabama,AS17663,Hall Group Networks
+175,106,2026-01-08 07:00:00,304.2,80.0,66.97,1.25,84.9,SR,Kimland,Alabama,AS51933,Johnson and Sons Networks
+176,110,2026-01-08 08:00:00,887.73,171.59,149.89,0.2,57.09,MN,Port Antonioshire,Texas,AS5639,Johnson and Sons Networks
+177,104,2026-01-08 09:00:00,123.7,44.95,142.44,0.4,66.89,GN,Cliffordhaven,Utah,AS48233,Pace-Arnold Networks
+178,101,2026-01-08 10:00:00,470.9,235.25,117.02,1.33,55.28,PE,Catherineberg,Delaware,AS57469,Ross Ltd Networks
+179,102,2026-01-08 11:00:00,520.01,207.11,10.94,0.54,75.53,MH,Port Stanleychester,North Dakota,AS52687,Montoya-Martin Networks
+180,106,2026-01-08 12:00:00,815.75,160.19,41.65,0.78,94.94,GD,East Melissa,Rhode Island,AS54331,"Lopez, Mays and Lang Networks"
+181,107,2026-01-08 13:00:00,666.93,329.78,43.99,1.63,98.31,SR,Villarrealborough,Delaware,AS11714,Cook-Shaw Networks
+182,103,2026-01-08 14:00:00,527.97,214.89,135.08,1.83,70.13,BY,Lake Brandon,Illinois,AS18532,Smith-Cordova Networks
+183,107,2026-01-08 15:00:00,945.18,156.81,63.12,0.33,41.14,MN,Port James,Iowa,AS28990,Ward-Johnson Networks
+184,110,2026-01-08 16:00:00,896.19,130.91,53.1,0.54,59.92,NP,Hannahfort,South Carolina,AS30922,"Parker, Davidson and Mack Networks"
+185,107,2026-01-08 17:00:00,67.56,27.11,109.87,0.16,70.99,TZ,South Caseytown,Virginia,AS54281,Chaney PLC Networks
+186,104,2026-01-08 18:00:00,44.28,18.9,79.46,1.39,54.44,MK,New Deniseborough,New Mexico,AS15649,Case-Montes Networks
+187,102,2026-01-08 19:00:00,534.86,214.21,53.26,0.81,92.96,LV,Amberville,Idaho,AS8841,Mullins-Perry Networks
+188,110,2026-01-08 20:00:00,347.45,117.46,55.95,0.96,88.85,VC,East Robertborough,South Dakota,AS48731,Reyes LLC Networks
+189,102,2026-01-08 21:00:00,495.9,201.13,40.73,1.14,51.14,TJ,Gloverhaven,Kansas,AS20845,Moreno-Jensen Networks
+190,109,2026-01-08 22:00:00,57.39,12.31,106.87,0.31,56.76,UZ,Oneillview,Massachusetts,AS11660,Fuller-Wright Networks
+191,106,2026-01-08 23:00:00,54.36,17.13,44.36,0.22,46.78,MK,Williamsside,Rhode Island,AS7287,Smith Group Networks
+192,103,2026-01-09 00:00:00,923.57,457.83,41.85,0.39,95.92,KG,North Stacy,New Mexico,AS39180,Reed-Stein Networks
+193,107,2026-01-09 01:00:00,847.5,279.31,82.92,1.07,88.08,MY,Lopezshire,North Dakota,AS1352,"Gardner, Johnson and Ferguson Networks"
+194,108,2026-01-09 02:00:00,811.59,177.25,142.19,1.85,98.33,MU,New Cristianville,Texas,AS23620,Lewis and Sons Networks
+195,108,2026-01-09 03:00:00,71.91,24.53,32.2,0.62,71.79,LC,Hunterton,Oklahoma,AS57205,"Moore, Hatfield and Martinez Networks"
+196,104,2026-01-09 04:00:00,936.76,391.12,117.73,1.82,82.07,LB,Williamston,Michigan,AS16324,Church-Preston Networks
+197,101,2026-01-09 05:00:00,583.99,59.93,11.98,1.89,53.54,MZ,East Christopherbury,Florida,AS40767,"Gray, Joseph and Brooks Networks"
+198,108,2026-01-09 06:00:00,799.22,143.21,138.02,0.69,42.94,NP,Lake Brianaberg,Texas,AS32978,"Newman, Mcgrath and Mendoza Networks"
+199,107,2026-01-09 07:00:00,381.39,59.07,42.73,1.27,80.52,GQ,New Dylan,Delaware,AS50125,"Mendoza, Lopez and Simpson Networks"
+200,110,2026-01-09 08:00:00,850.2,325.11,88.27,0.13,52.93,DK,Cassandrabury,Georgia,AS22379,Haney PLC Networks
+201,102,2026-01-09 09:00:00,379.88,170.79,118.04,0.74,69.23,FI,East Mistyberg,Alaska,AS27075,Perry Ltd Networks
+202,107,2026-01-09 10:00:00,357.61,145.42,72.85,0.07,73.01,TT,Michelleborough,Oregon,AS5229,Ortiz LLC Networks
+203,102,2026-01-09 11:00:00,798.56,215.66,135.46,1.17,63.79,EE,Cruzside,Michigan,AS15007,"Hale, Jensen and Morrow Networks"
+204,108,2026-01-09 12:00:00,466.1,189.83,149.22,1.95,51.01,IT,Port Emilyburgh,New Hampshire,AS58864,Roberts-Reyes Networks
+205,103,2026-01-09 13:00:00,121.43,28.87,142.28,1.81,45.91,TG,New Stephanie,Utah,AS3170,"Smith, Harris and Johnson Networks"
+206,101,2026-01-09 14:00:00,188.86,36.02,119.62,0.11,78.94,SA,South Edwardville,Minnesota,AS22799,Lowe Inc Networks
+207,105,2026-01-09 15:00:00,566.16,206.13,24.79,1.15,62.5,GA,South Kevinchester,Connecticut,AS2741,Walker-Schneider Networks
+208,110,2026-01-09 16:00:00,22.21,8.7,72.13,1.35,46.22,MA,South Daniel,Iowa,AS37229,"Gordon, Adams and Alvarez Networks"
+209,102,2026-01-09 17:00:00,197.68,79.58,97.82,0.24,40.48,MN,Sandrabury,Tennessee,AS55401,Black-Clark Networks
+210,106,2026-01-09 18:00:00,252.03,107.22,41.92,0.54,66.94,AG,North Tracyfort,Alaska,AS55785,"Montoya, Mueller and Bradley Networks"
+211,106,2026-01-09 19:00:00,511.59,53.5,36.08,1.09,82.08,AT,West Angie,Wisconsin,AS50023,Fowler Inc Networks
+212,102,2026-01-09 20:00:00,360.21,147.0,57.01,1.19,84.69,MH,Beckermouth,Kentucky,AS56557,Cantrell PLC Networks
+213,104,2026-01-09 21:00:00,90.11,19.3,39.05,0.52,79.47,TZ,North Chris,Georgia,AS30203,Thompson-Jenkins Networks
+214,107,2026-01-09 22:00:00,325.14,76.07,59.45,1.81,55.3,BS,Stephenview,Idaho,AS20584,"Russell, Camacho and Le Networks"
+215,105,2026-01-09 23:00:00,25.72,7.8,18.31,1.38,40.15,LI,New Elizabeth,Oregon,AS49252,Harris Inc Networks
+216,101,2026-01-10 00:00:00,478.9,162.38,97.34,1.33,46.1,LI,Mariomouth,Iowa,AS15062,"Reid, Burke and Evans Networks"
+217,103,2026-01-10 01:00:00,780.07,328.95,22.08,0.73,51.72,VA,Port Tiffanyville,New York,AS18787,"Valenzuela, Taylor and Garcia Networks"
+218,110,2026-01-10 02:00:00,497.93,199.49,44.8,0.92,49.05,SV,Janetmouth,Ohio,AS24877,Blankenship-Evans Networks
+219,102,2026-01-10 03:00:00,465.16,177.57,109.8,0.83,89.0,AZ,Port Aaronport,Delaware,AS22830,Mann-Velazquez Networks
+220,108,2026-01-10 04:00:00,418.9,101.81,33.74,1.48,63.54,UZ,Port Williamside,North Dakota,AS44738,Gallegos PLC Networks
+221,106,2026-01-10 05:00:00,702.96,244.87,68.63,1.07,49.93,DJ,West Jason,Arizona,AS56466,"Fuller, Hunter and Cooper Networks"
+222,101,2026-01-10 06:00:00,52.81,24.04,145.21,1.58,90.39,MU,South Kiaraview,Maine,AS32651,Rogers-Weiss Networks
+223,106,2026-01-10 07:00:00,286.81,78.78,20.77,0.98,42.84,TW,Brandonmouth,Kansas,AS36452,"Bass, Watkins and Saunders Networks"
+224,108,2026-01-10 08:00:00,621.07,143.24,16.96,1.86,77.2,ZA,Porterport,Idaho,AS2694,Ware-Harrison Networks
+225,105,2026-01-10 09:00:00,808.42,280.13,64.7,1.71,41.27,TR,Port Nathanberg,Missouri,AS30653,"Bauer, Nelson and Day Networks"
+226,107,2026-01-10 10:00:00,734.16,178.21,134.57,1.43,76.21,NE,Lake Stephanieborough,Georgia,AS7864,Lowe-Wilkinson Networks
+227,109,2026-01-10 11:00:00,807.77,199.35,120.99,0.65,82.32,AT,Goldenburgh,Oregon,AS7868,Chapman-Castaneda Networks
+228,107,2026-01-10 12:00:00,803.44,129.96,142.74,0.74,79.69,NG,Mendozashire,Tennessee,AS43644,Tucker LLC Networks
+229,106,2026-01-10 13:00:00,337.62,79.21,144.48,0.23,91.64,PG,Espinozashire,Rhode Island,AS17461,Rivas Inc Networks
+230,105,2026-01-10 14:00:00,662.55,216.41,67.5,0.97,77.21,KG,Wangmouth,Oklahoma,AS50873,Steele Inc Networks
+231,109,2026-01-10 15:00:00,945.29,148.84,113.99,0.49,53.82,CN,Port Scott,Georgia,AS47399,Robinson Ltd Networks
+232,107,2026-01-10 16:00:00,482.53,212.39,56.23,1.28,50.14,MM,Holtbury,New York,AS34257,"Rivera, Myers and Marshall Networks"
+233,103,2026-01-10 17:00:00,655.87,308.25,123.99,2.0,70.88,LV,West Audreyshire,Virginia,AS5667,"Ball, Cooper and Smith Networks"
+234,103,2026-01-10 18:00:00,334.93,43.85,49.59,0.05,94.33,LB,Jacobland,Iowa,AS58510,"Anderson, Simpson and Reyes Networks"
+235,106,2026-01-10 19:00:00,905.95,182.06,16.47,1.22,96.12,CO,Scottland,Massachusetts,AS1215,Morris-Lopez Networks
+236,108,2026-01-10 20:00:00,354.49,49.66,149.7,1.85,45.27,BW,Lucashaven,Arizona,AS22041,"Martinez, Maldonado and Santana Networks"
+237,106,2026-01-10 21:00:00,935.1,218.82,145.27,1.54,80.16,CO,Smithbury,Delaware,AS13063,Johnson Group Networks
+238,105,2026-01-10 22:00:00,641.86,81.43,131.65,1.65,75.02,ME,East Daniel,Arkansas,AS41124,Horne Group Networks
+239,101,2026-01-10 23:00:00,614.44,254.51,108.08,1.88,90.04,US,South Anthony,Alabama,AS16678,Strickland-Riggs Networks
+240,107,2026-01-11 00:00:00,714.65,293.48,112.9,0.96,46.93,PK,Port Marciastad,Oregon,AS36886,Powell-Rodriguez Networks
+241,106,2026-01-11 01:00:00,441.24,45.29,27.46,1.13,57.49,NG,Brownburgh,Virginia,AS14592,Kirby PLC Networks
+242,104,2026-01-11 02:00:00,888.62,402.13,44.67,1.84,56.58,SK,West Jordanport,Maryland,AS59130,"Curry, Fleming and Ortiz Networks"
+243,103,2026-01-11 03:00:00,808.98,385.95,91.65,1.5,55.57,SE,Walkerland,Idaho,AS34858,Fuentes-Byrd Networks
+244,107,2026-01-11 04:00:00,746.11,362.42,39.83,0.66,81.81,KM,Matthewhaven,California,AS34555,"White, Dunn and Kelly Networks"
+245,102,2026-01-11 05:00:00,186.23,51.95,117.18,1.84,61.88,UG,Contrerasberg,Alaska,AS37126,Rodriguez Inc Networks
+246,103,2026-01-11 06:00:00,550.37,137.06,17.93,0.09,97.6,LI,Gregoryshire,Pennsylvania,AS5972,Webb-Herrera Networks
+247,110,2026-01-11 07:00:00,150.06,53.79,138.03,0.62,76.7,AT,West Lauriefort,Utah,AS17608,Snyder Group Networks
+248,110,2026-01-11 08:00:00,431.19,174.1,111.34,1.61,92.9,TJ,Wilsonport,Maine,AS59796,Faulkner and Sons Networks
+249,104,2026-01-11 09:00:00,306.97,66.57,131.89,0.63,63.02,MY,Lake Sean,Minnesota,AS11873,"Fisher, Bryan and Wilson Networks"
+250,106,2026-01-11 10:00:00,789.96,258.73,93.92,1.33,41.69,KG,Luisburgh,Maryland,AS19150,"Washington, Rios and Morgan Networks"
+251,108,2026-01-11 11:00:00,27.26,4.24,12.59,0.03,79.95,ST,Lisaport,Arizona,AS3663,Parker and Sons Networks
+252,110,2026-01-11 12:00:00,685.53,150.3,98.13,1.51,42.94,GR,Chambersland,New Jersey,AS19413,"Potter, Ramirez and King Networks"
+253,105,2026-01-11 13:00:00,277.6,78.63,67.97,0.68,86.76,BH,Juliechester,South Carolina,AS3682,"Williams, Stephens and Horton Networks"
+254,110,2026-01-11 14:00:00,402.87,122.59,24.17,1.02,45.06,MC,Georgeland,Alabama,AS35743,Garcia Ltd Networks
+255,102,2026-01-11 15:00:00,585.78,214.88,124.66,1.49,69.19,BJ,Jakestad,Idaho,AS42747,Mack LLC Networks
+256,107,2026-01-11 16:00:00,580.06,289.85,147.71,0.68,64.72,KI,Lisachester,South Dakota,AS28249,"Hale, Obrien and Gonzalez Networks"
+257,110,2026-01-11 17:00:00,252.34,26.35,33.16,0.53,85.2,ML,Bakerview,Massachusetts,AS52589,"Schwartz, May and Wilson Networks"
+258,109,2026-01-11 18:00:00,703.4,87.41,99.6,0.82,76.11,LT,Matthewmouth,South Dakota,AS38624,Smith-Robinson Networks
+259,107,2026-01-11 19:00:00,491.17,118.89,104.1,0.32,77.95,AD,New Cynthiaburgh,New York,AS26320,Jones and Sons Networks
+260,107,2026-01-11 20:00:00,815.55,116.16,30.98,1.52,97.86,GQ,Marshalltown,West Virginia,AS10203,Cortez Inc Networks
+261,105,2026-01-11 21:00:00,708.39,273.32,34.43,1.9,40.44,BB,Michaelbury,Iowa,AS41087,Smith and Sons Networks
+262,108,2026-01-11 22:00:00,551.58,226.35,8.5,0.37,42.17,DZ,Newtonshire,Colorado,AS49123,Hill-Miller Networks
+263,102,2026-01-11 23:00:00,123.7,60.85,37.27,0.19,65.58,SI,Devinside,Illinois,AS6089,Smith-Sanders Networks
+264,102,2026-01-12 00:00:00,326.65,89.28,81.78,1.85,60.57,AE,South Sherry,Iowa,AS2798,Jordan Group Networks
+265,107,2026-01-12 01:00:00,695.54,168.53,28.21,1.7,68.76,PT,East Rachelhaven,New Jersey,AS43125,Davis-Vazquez Networks
+266,105,2026-01-12 02:00:00,414.37,113.58,10.31,1.76,64.76,TM,Port Michael,South Dakota,AS38916,"Perez, Hunter and Fuller Networks"
+267,101,2026-01-12 03:00:00,54.31,15.25,59.07,1.66,46.68,AD,Lawsontown,Missouri,AS7424,Cuevas-Harris Networks
+268,106,2026-01-12 04:00:00,620.25,201.47,90.02,0.05,68.7,SL,Garciamouth,Nebraska,AS4270,Hensley-Le Networks
+269,105,2026-01-12 05:00:00,132.91,27.69,60.74,1.62,50.91,NA,Christinahaven,New Hampshire,AS52924,"Sanchez, James and George Networks"
+270,104,2026-01-12 06:00:00,81.35,18.05,47.31,1.87,65.82,QA,Suttonport,Kentucky,AS29896,"Johnson, Gray and Blackwell Networks"
+271,110,2026-01-12 07:00:00,664.07,219.5,43.95,1.4,46.89,CN,Lake Theresaport,Florida,AS41031,"Foster, Ruiz and Smith Networks"
+272,110,2026-01-12 08:00:00,354.93,75.73,132.37,0.38,48.79,GD,Davidstad,New Hampshire,AS25023,Moore PLC Networks
+273,108,2026-01-12 09:00:00,665.23,94.5,46.77,0.57,98.41,GY,Acostaland,Connecticut,AS36687,Lawson-Burke Networks
+274,106,2026-01-12 10:00:00,787.91,180.26,145.69,0.1,92.23,ML,Port Donald,Alabama,AS29165,Cummings-Cole Networks
+275,109,2026-01-12 11:00:00,236.9,66.28,145.52,0.02,92.53,CG,Arnoldfort,Idaho,AS8205,Miller-Davis Networks
+276,103,2026-01-12 12:00:00,275.98,106.82,41.23,1.4,76.08,DK,Millerburgh,Connecticut,AS14778,"Weiss, Johnston and Black Networks"
+277,103,2026-01-12 13:00:00,361.22,167.61,72.9,0.96,46.4,FJ,Johnsontown,Oregon,AS46029,Nelson-Hill Networks
+278,102,2026-01-12 14:00:00,504.45,142.8,63.44,1.86,94.08,NP,Bellmouth,South Carolina,AS13484,Davis-Edwards Networks
+279,109,2026-01-12 15:00:00,248.3,55.93,9.66,1.83,47.33,DO,Burnettburgh,New Jersey,AS47990,"Andrews, Orozco and Miller Networks"
+280,106,2026-01-12 16:00:00,618.56,110.89,20.23,0.04,78.78,FM,Edwardsfurt,Alabama,AS34938,Bartlett-Jones Networks
+281,107,2026-01-12 17:00:00,335.53,49.64,24.0,1.58,54.9,JM,Elizabethburgh,Arkansas,AS44523,Peterson PLC Networks
+282,110,2026-01-12 18:00:00,112.73,41.47,113.18,1.32,98.53,CY,Lake Alexisfort,New Mexico,AS31873,"Mosley, Wilson and Shelton Networks"
+283,105,2026-01-12 19:00:00,513.99,65.29,36.2,0.64,77.59,PG,Randallberg,West Virginia,AS16814,Perez-Rice Networks
+284,103,2026-01-12 20:00:00,315.7,88.55,129.41,1.86,58.49,NG,South Catherine,Alabama,AS56496,Berry-Carlson Networks
+285,109,2026-01-12 21:00:00,568.6,133.89,7.39,0.49,48.19,RW,West Dana,Pennsylvania,AS49210,"Mccoy, Chavez and Smith Networks"
+286,105,2026-01-12 22:00:00,239.0,84.82,100.83,1.38,93.16,MM,Robertsberg,North Carolina,AS39902,Preston-Barber Networks
+287,103,2026-01-12 23:00:00,935.8,364.47,9.48,1.3,93.35,ER,Gonzalezmouth,Utah,AS38421,Mora Ltd Networks
+288,103,2026-01-13 00:00:00,184.14,64.6,130.34,1.54,54.34,JP,Alexanderstad,New York,AS33907,Gonzalez LLC Networks
+289,107,2026-01-13 01:00:00,614.32,181.48,59.97,0.4,81.23,PA,Jacksontown,Utah,AS49306,Lowe-Hernandez Networks
+290,108,2026-01-13 02:00:00,662.92,258.97,101.44,0.78,77.38,BE,West Richardfurt,West Virginia,AS8970,"Gomez, Gonzalez and Collier Networks"
+291,110,2026-01-13 03:00:00,757.86,154.45,69.68,1.08,51.25,BB,South Stephaniebury,New Jersey,AS43795,Gibbs Group Networks
+292,107,2026-01-13 04:00:00,398.71,99.78,71.37,0.45,54.25,SV,Duranbury,Wisconsin,AS47114,Ortiz-Stevens Networks
+293,105,2026-01-13 05:00:00,327.71,151.9,143.71,0.99,54.48,AE,New Deanna,South Dakota,AS42125,Bauer-Morrow Networks
+294,101,2026-01-13 06:00:00,860.74,309.0,36.55,0.89,55.02,MZ,New Dawn,Massachusetts,AS10364,Kirby and Sons Networks
+295,106,2026-01-13 07:00:00,260.0,109.11,93.25,0.57,95.87,MU,Patriciatown,New Hampshire,AS43917,Singleton-Ford Networks
+296,101,2026-01-13 08:00:00,877.7,283.04,101.93,0.54,79.76,AF,Walkerberg,New Hampshire,AS15271,Cummings Inc Networks
+297,101,2026-01-13 09:00:00,937.95,423.08,75.59,0.3,55.74,LV,New Joseph,Mississippi,AS25535,Marks-Archer Networks
+298,109,2026-01-13 10:00:00,294.18,74.62,120.19,0.95,43.94,CH,Keithburgh,Nevada,AS32362,"Burke, Stephens and Riley Networks"
+299,109,2026-01-13 11:00:00,397.86,159.25,85.75,1.99,80.89,TJ,Matthewschester,Georgia,AS39474,"Love, Wolf and Jackson Networks"
+300,108,2026-01-13 12:00:00,589.12,98.02,25.11,1.11,54.84,BD,Johnburgh,Kentucky,AS14845,Yates-Rodriguez Networks
+301,106,2026-01-13 13:00:00,330.55,74.11,102.48,1.77,48.88,LA,Robertburgh,Missouri,AS10181,Hill-May Networks
+302,109,2026-01-13 14:00:00,945.42,121.48,110.37,1.39,93.29,KW,West Connie,New York,AS26934,Farmer PLC Networks
+303,105,2026-01-13 15:00:00,603.64,108.02,26.75,0.48,57.01,BA,East Amanda,Louisiana,AS19773,"Clark, Phillips and Beasley Networks"
+304,101,2026-01-13 16:00:00,601.57,190.47,106.16,1.42,87.52,CO,Port Michael,Iowa,AS37141,Santiago and Sons Networks
+305,102,2026-01-13 17:00:00,242.93,82.3,82.52,1.61,73.59,CL,Lake Brandon,West Virginia,AS40752,Stevens PLC Networks
+306,109,2026-01-13 18:00:00,122.47,17.04,117.96,1.28,85.4,SI,Port Gregory,Maryland,AS57988,"Shah, Hernandez and Watson Networks"
+307,107,2026-01-13 19:00:00,617.84,258.28,23.83,0.33,94.41,TD,West Nicholas,Wisconsin,AS37652,Macias Group Networks
+308,105,2026-01-13 20:00:00,561.87,154.6,76.8,0.44,94.69,VA,North Jennifershire,Alaska,AS11638,Jones LLC Networks
+309,102,2026-01-13 21:00:00,355.39,37.95,72.28,0.55,48.76,CV,Williammouth,Missouri,AS57839,Grant-Moreno Networks
+310,109,2026-01-13 22:00:00,510.32,164.81,106.67,0.27,55.38,BW,Susanside,Iowa,AS16048,Hicks-Taylor Networks
+311,102,2026-01-13 23:00:00,847.25,421.8,145.09,1.69,41.89,LU,New Brettshire,Washington,AS34889,"Gilmore, Rios and Carter Networks"
+312,103,2026-01-14 00:00:00,441.92,184.6,10.33,0.78,47.58,CM,Lake Erika,Oklahoma,AS37346,Stephens-Miller Networks
+313,106,2026-01-14 01:00:00,582.8,202.71,141.09,0.08,95.22,SD,Andrewshaven,Washington,AS11151,Arias-Mcdaniel Networks
+314,103,2026-01-14 02:00:00,829.21,325.33,22.23,1.48,75.76,SA,Port Sydneyberg,Ohio,AS17049,Jones Ltd Networks
+315,105,2026-01-14 03:00:00,537.12,193.3,149.16,1.04,93.5,IN,Carterville,Maryland,AS59066,"Bradley, Cohen and Fletcher Networks"
+316,108,2026-01-14 04:00:00,216.49,104.73,66.64,1.87,58.92,PG,South Sarahberg,Maine,AS59433,Velez PLC Networks
+317,107,2026-01-14 05:00:00,187.47,39.34,50.79,1.41,82.1,TW,Leechester,New Jersey,AS47907,Banks-Nolan Networks
+318,102,2026-01-14 06:00:00,560.56,79.38,96.18,1.29,71.18,MG,Tanyabury,New York,AS10516,Banks LLC Networks
+319,105,2026-01-14 07:00:00,708.49,176.35,40.44,1.16,91.08,TV,New Whitney,Delaware,AS12159,"Thomas, David and Walker Networks"
+320,101,2026-01-14 08:00:00,797.92,124.38,140.84,1.24,52.48,ZW,New Katieport,Missouri,AS1734,Ortiz-Bennett Networks
+321,110,2026-01-14 09:00:00,411.3,114.33,124.11,1.53,55.1,LU,North Monica,New Hampshire,AS39483,Lang PLC Networks
+322,107,2026-01-14 10:00:00,390.48,118.93,100.07,0.84,53.9,TM,East Joshua,Nebraska,AS38170,White Inc Networks
+323,102,2026-01-14 11:00:00,578.36,175.73,22.26,0.11,76.31,AL,West Juliaton,Louisiana,AS46787,Snyder-Hall Networks
+324,102,2026-01-14 12:00:00,379.75,148.15,84.2,0.97,74.25,BB,Edwardsmouth,Texas,AS15291,Martin-Harrison Networks
+325,101,2026-01-14 13:00:00,197.49,28.84,70.19,1.15,90.63,SM,West Pamelabury,Louisiana,AS12416,Martin and Sons Networks
+326,103,2026-01-14 14:00:00,101.87,16.18,69.61,0.85,96.84,NI,West Hunter,North Dakota,AS21562,Smith-Powers Networks
+327,105,2026-01-14 15:00:00,257.11,57.96,116.51,0.48,58.78,MM,South Sean,Kentucky,AS38498,"Hernandez, Vaughn and Jones Networks"
+328,106,2026-01-14 16:00:00,928.49,128.96,109.7,0.99,59.25,CA,Jennifertown,Mississippi,AS13594,Smith-Sweeney Networks
+329,109,2026-01-14 17:00:00,327.74,97.16,23.52,0.83,96.26,KW,New Michelle,Utah,AS29310,"Sullivan, Bush and Cook Networks"
+330,106,2026-01-14 18:00:00,656.88,247.64,14.51,0.14,78.24,MX,Anthonymouth,Texas,AS13597,"Baker, Montoya and Miller Networks"
+331,108,2026-01-14 19:00:00,163.64,53.13,69.37,1.59,49.59,JO,Thompsonton,Nevada,AS3833,Dixon-Key Networks
+332,101,2026-01-14 20:00:00,363.87,41.3,69.01,1.65,42.95,SK,Lake Dianashire,Idaho,AS16407,"Morris, Walsh and Warner Networks"
+333,101,2026-01-14 21:00:00,790.33,117.63,14.61,0.5,51.04,GW,New Wandamouth,Minnesota,AS31545,"Hall, Wilcox and Ayers Networks"
+334,102,2026-01-14 22:00:00,236.78,91.38,26.05,1.14,65.95,SR,Perryburgh,Arkansas,AS26722,"Alexander, Kelly and Mccoy Networks"
+335,101,2026-01-14 23:00:00,723.96,284.51,115.22,1.22,42.64,LV,Dawsonland,Georgia,AS34518,"Winters, Franco and Pratt Networks"
+336,104,2026-01-15 00:00:00,430.66,174.97,68.76,0.96,77.42,UA,West Huntershire,Illinois,AS4920,Garcia and Sons Networks
+337,105,2026-01-15 01:00:00,523.84,244.28,54.02,1.7,98.41,UZ,North Robert,Maryland,AS22859,Gomez Ltd Networks
+338,105,2026-01-15 02:00:00,161.53,24.54,112.26,0.53,96.96,GM,Thomasfort,Vermont,AS47443,"Wade, Mcintyre and Mason Networks"
+339,103,2026-01-15 03:00:00,943.35,404.63,23.07,0.05,79.04,LY,Brownside,Connecticut,AS15569,Wagner LLC Networks
+340,107,2026-01-15 04:00:00,439.64,210.93,146.65,1.46,86.82,BN,Ashleyside,Montana,AS12546,"Jones, Leblanc and Decker Networks"
+341,101,2026-01-15 05:00:00,554.55,250.82,111.15,0.92,44.6,SG,Allisonmouth,South Carolina,AS37706,Robles-Jones Networks
+342,110,2026-01-15 06:00:00,499.51,221.24,128.89,0.94,73.81,GE,New Sandramouth,Louisiana,AS33356,Gray Inc Networks
+343,102,2026-01-15 07:00:00,508.51,245.4,13.53,0.47,56.29,ES,Lake Georgemouth,Michigan,AS31163,"Marshall, Vargas and Brown Networks"
+344,104,2026-01-15 08:00:00,209.21,46.01,104.12,1.95,88.8,DZ,Ericaland,Pennsylvania,AS5493,Wilson Ltd Networks
+345,107,2026-01-15 09:00:00,129.99,48.12,141.45,1.1,96.57,NL,Port Patriciastad,Nevada,AS31143,"Johnson, Harrington and Petersen Networks"
+346,102,2026-01-15 10:00:00,326.36,46.99,130.42,0.78,59.32,PY,East Ashley,Louisiana,AS20590,"Blevins, Saunders and Stephens Networks"
+347,108,2026-01-15 11:00:00,612.52,147.06,92.11,0.8,85.5,BI,Robertshaven,New Jersey,AS35835,Clay Group Networks
+348,107,2026-01-15 12:00:00,615.62,176.89,67.6,0.07,83.28,MV,Stanleychester,Hawaii,AS44930,"Butler, Fisher and Evans Networks"
+349,103,2026-01-15 13:00:00,881.46,228.41,91.82,0.92,87.86,GB,Foleyberg,Alaska,AS48701,Ellis Inc Networks
+350,102,2026-01-15 14:00:00,735.88,162.66,82.18,0.7,55.61,MT,Jerryshire,Wisconsin,AS57549,"Edwards, Lam and Perry Networks"
+351,101,2026-01-15 15:00:00,560.68,175.21,20.26,0.91,50.02,SY,Diazburgh,Virginia,AS46756,Robertson Group Networks
+352,108,2026-01-15 16:00:00,707.26,216.98,147.44,0.72,68.79,GA,Phillipsview,Ohio,AS39151,Reed-Steele Networks
+353,108,2026-01-15 17:00:00,237.46,77.64,41.32,1.34,62.05,SY,South Kellyburgh,Idaho,AS9961,"Graves, Bowman and Myers Networks"
+354,108,2026-01-15 18:00:00,726.61,318.85,101.01,1.5,69.59,LC,Freemanshire,South Carolina,AS39682,"Rivas, Quinn and Fernandez Networks"
+355,110,2026-01-15 19:00:00,598.09,108.31,147.99,1.46,70.77,MW,Port Brendachester,Oregon,AS17860,"Dennis, Lopez and Patterson Networks"
+356,101,2026-01-15 20:00:00,728.14,262.54,75.11,1.07,44.3,PW,North Erin,Minnesota,AS13715,Johnson-Miranda Networks
+357,108,2026-01-15 21:00:00,704.37,86.82,125.93,1.08,80.42,SG,West Maria,Tennessee,AS53519,Chung-Moore Networks
+358,104,2026-01-15 22:00:00,39.09,15.95,103.18,1.94,82.52,HR,South Carl,Nevada,AS41389,Dunn and Sons Networks
+359,105,2026-01-15 23:00:00,597.93,61.69,85.65,1.46,78.82,ZM,North Micheal,Ohio,AS58057,Oconnell-Gallagher Networks
+360,101,2026-01-16 00:00:00,652.22,270.3,88.49,1.59,90.25,PA,North Brianmouth,Oklahoma,AS59344,Miranda-Hawkins Networks
+361,105,2026-01-16 01:00:00,857.77,325.06,15.44,1.44,63.64,PA,West Anthonyview,Ohio,AS14782,Martinez-Marshall Networks
+362,107,2026-01-16 02:00:00,377.74,78.82,23.03,0.41,74.5,AO,North Crystal,Maryland,AS5318,Wright PLC Networks
+363,107,2026-01-16 03:00:00,532.91,213.13,20.28,0.26,72.12,MV,South Samuelport,Arkansas,AS37516,Munoz LLC Networks
+364,103,2026-01-16 04:00:00,445.52,55.52,64.48,0.93,85.84,PS,Nelsonland,Vermont,AS33588,Gray PLC Networks
+365,103,2026-01-16 05:00:00,949.38,185.91,42.43,1.53,48.19,AM,Hendersonshire,Minnesota,AS46050,"Horton, Richmond and Garrett Networks"
+366,108,2026-01-16 06:00:00,670.86,314.36,31.72,1.77,86.5,GN,East Scott,Connecticut,AS56984,"Martin, Williams and Stout Networks"
+367,103,2026-01-16 07:00:00,91.84,13.95,12.95,1.78,67.78,BN,Port Frankburgh,Mississippi,AS46109,"Coleman, Moore and Brown Networks"
+368,108,2026-01-16 08:00:00,274.64,97.65,149.18,1.59,60.6,GR,Pittsland,Missouri,AS5517,Smith and Sons Networks
+369,108,2026-01-16 09:00:00,859.74,133.24,58.35,0.28,63.01,AG,Donaldfurt,Minnesota,AS26529,"Butler, Nguyen and George Networks"
+370,101,2026-01-16 10:00:00,887.93,347.69,25.38,1.28,52.72,ZA,Wilsonville,Wisconsin,AS47874,Carter Inc Networks
+371,106,2026-01-16 11:00:00,486.69,51.87,54.79,0.61,65.41,SO,Bonniemouth,Montana,AS44029,Terry Group Networks
+372,107,2026-01-16 12:00:00,633.99,294.3,127.1,1.76,76.61,LK,Trevormouth,Wyoming,AS43568,Weeks PLC Networks
+373,105,2026-01-16 13:00:00,446.17,53.47,48.41,0.05,86.02,KG,Hendersonmouth,Nebraska,AS49790,"Whitehead, Lewis and Ray Networks"
+374,108,2026-01-16 14:00:00,642.65,185.2,104.5,0.8,78.05,EC,North Sherry,Utah,AS43371,"Copeland, Dunn and May Networks"
+375,108,2026-01-16 15:00:00,530.69,157.11,20.27,0.58,79.39,NL,Justinmouth,Arkansas,AS49798,Jones PLC Networks
+376,108,2026-01-16 16:00:00,603.94,83.22,149.83,0.92,83.96,SV,Batesstad,Virginia,AS9744,"Graham, Rogers and May Networks"
+377,104,2026-01-16 17:00:00,501.61,188.99,52.47,1.34,96.82,IR,Port Manuelstad,Wyoming,AS58599,Cunningham Inc Networks
+378,105,2026-01-16 18:00:00,761.71,186.72,144.92,1.47,75.23,HN,New Stephanie,Rhode Island,AS16825,Spence-Hunt Networks
+379,102,2026-01-16 19:00:00,705.86,337.55,120.52,1.71,42.91,AO,Cooperhaven,North Dakota,AS13016,"Gonzalez, Sherman and Miller Networks"
+380,106,2026-01-16 20:00:00,794.66,258.28,20.93,1.42,84.15,ST,New Davidstad,Texas,AS8810,"Gomez, Perry and Mcdaniel Networks"
+381,101,2026-01-16 21:00:00,924.92,410.7,14.64,0.14,44.71,GY,South Kristinamouth,Delaware,AS14149,Anderson-Hernandez Networks
+382,105,2026-01-16 22:00:00,527.85,190.6,44.94,0.13,61.88,MX,Port Bradleyview,Idaho,AS57315,"Jenkins, White and Young Networks"
+383,106,2026-01-16 23:00:00,259.26,107.08,44.01,1.73,88.93,MV,South Alexandria,Iowa,AS29876,Bell PLC Networks
+384,105,2026-01-17 00:00:00,838.94,387.86,7.74,1.4,81.82,LB,East Charleston,Minnesota,AS28263,Sanchez and Sons Networks
+385,104,2026-01-17 01:00:00,606.47,284.1,17.15,0.76,41.9,US,Loriborough,Alabama,AS23862,Arnold-Caldwell Networks
+386,106,2026-01-17 02:00:00,270.63,109.79,105.31,0.9,47.96,CD,East Anthonyville,Montana,AS17729,"Ingram, Norton and Brown Networks"
+387,102,2026-01-17 03:00:00,379.44,48.92,115.68,1.41,47.23,PW,Gutierrezton,Utah,AS30313,"Martinez, Cherry and Adams Networks"
+388,102,2026-01-17 04:00:00,339.99,153.83,113.57,0.81,89.18,BG,Castromouth,Wyoming,AS43119,"Flores, Sandoval and Davis Networks"
+389,103,2026-01-17 05:00:00,527.57,198.58,143.2,1.89,78.83,IS,Stephaniemouth,Florida,AS4043,"Taylor, Sanders and Miller Networks"
+390,103,2026-01-17 06:00:00,708.89,222.48,98.87,0.1,67.57,DM,Johnsonton,Nebraska,AS5448,"Price, Wilson and Brown Networks"
+391,103,2026-01-17 07:00:00,157.04,67.61,45.62,1.93,70.54,PS,Davidmouth,Georgia,AS56584,Sexton Inc Networks
+392,106,2026-01-17 08:00:00,328.43,116.06,53.76,1.13,60.26,MW,Marcburgh,Arizona,AS33925,"Baker, Fox and Cruz Networks"
+393,109,2026-01-17 09:00:00,327.06,107.35,142.33,1.33,95.73,MZ,Kurtchester,Nevada,AS48984,Deleon-Wilkinson Networks
+394,110,2026-01-17 10:00:00,901.57,289.87,127.16,1.6,75.58,NI,Monicaport,Alabama,AS47057,"Sellers, Reynolds and Fuentes Networks"
+395,104,2026-01-17 11:00:00,936.14,448.2,25.61,1.42,90.47,AO,Torresmouth,Louisiana,AS43767,"Mason, Martinez and Jones Networks"
+396,107,2026-01-17 12:00:00,604.36,271.54,94.07,0.75,88.85,SI,Hayesville,Maryland,AS10976,Moore-Jones Networks
+397,102,2026-01-17 13:00:00,933.78,415.18,31.3,0.66,48.3,IS,Christinaville,South Dakota,AS58831,Howell Ltd Networks
+398,105,2026-01-17 14:00:00,206.02,51.1,73.03,1.21,42.7,PY,Adamsshire,Idaho,AS46392,"Phelps, Thomas and Mendoza Networks"
+399,105,2026-01-17 15:00:00,500.5,147.54,33.83,1.37,79.9,CR,Jennyview,New Jersey,AS44512,Potter-Green Networks
+400,104,2026-01-17 16:00:00,87.95,24.93,96.65,0.16,70.18,SL,South Lauraland,Illinois,AS46497,"Yates, Cherry and Hall Networks"
+401,107,2026-01-17 17:00:00,47.12,14.33,49.73,0.72,68.03,SK,Port Phillip,Illinois,AS59143,"Hoffman, Taylor and Hernandez Networks"
+402,106,2026-01-17 18:00:00,334.8,162.73,75.34,0.07,93.92,TL,East Samanthamouth,Massachusetts,AS56297,"Scott, Anderson and Wood Networks"
+403,101,2026-01-17 19:00:00,786.56,139.88,41.87,0.38,80.62,KR,Angelicafort,Nebraska,AS56482,Hunter-Johnson Networks
+404,102,2026-01-17 20:00:00,58.39,15.35,87.0,0.25,51.89,PH,Michaelmouth,Illinois,AS6255,Flynn-Adams Networks
+405,110,2026-01-17 21:00:00,119.49,31.3,32.24,1.48,84.66,ET,Port Johnstad,Idaho,AS49930,"Kelly, Stewart and West Networks"
+406,108,2026-01-17 22:00:00,413.19,130.04,31.1,1.94,71.42,FM,Port Apriltown,Georgia,AS29356,"Cordova, Bullock and Smith Networks"
+407,110,2026-01-17 23:00:00,238.27,68.94,46.23,0.77,55.62,TZ,West Tinafurt,Illinois,AS52917,"Vega, Harmon and Garcia Networks"
+408,109,2026-01-18 00:00:00,214.33,78.14,17.19,1.81,68.32,GA,Gilberthaven,Arizona,AS25575,"Smith, Grimes and Porter Networks"
+409,104,2026-01-18 01:00:00,288.58,120.15,122.96,0.3,69.18,DM,Lake Matthewburgh,South Dakota,AS32852,"Williams, Harris and Smith Networks"
+410,109,2026-01-18 02:00:00,99.76,38.91,65.76,1.33,59.4,UA,Joseberg,Wisconsin,AS33493,"Esparza, Wright and Wood Networks"
+411,110,2026-01-18 03:00:00,659.21,238.03,54.11,0.43,42.14,MW,Harrisburgh,Pennsylvania,AS26894,Castro Ltd Networks
+412,110,2026-01-18 04:00:00,108.89,24.45,128.87,0.48,47.41,GA,East Julie,Montana,AS47545,"Smith, Fuentes and Ochoa Networks"
+413,110,2026-01-18 05:00:00,299.4,31.91,29.58,0.95,40.8,SN,Jessicashire,Nevada,AS51250,Wilson-Mcgee Networks
+414,103,2026-01-18 06:00:00,642.66,165.07,40.95,1.95,78.19,MW,Mcbridefurt,Colorado,AS29854,Perez-Boyer Networks
+415,104,2026-01-18 07:00:00,238.88,111.29,99.41,1.57,57.2,LB,Marieview,Florida,AS5875,"Barrett, Robinson and Shah Networks"
+416,110,2026-01-18 08:00:00,293.95,109.15,7.94,0.52,40.55,NA,Hernandeztown,California,AS3709,Mahoney Group Networks
+417,102,2026-01-18 09:00:00,320.51,34.36,66.36,1.52,74.55,DE,Harpertown,Florida,AS55554,"Reed, Smith and Herrera Networks"
+418,102,2026-01-18 10:00:00,326.88,159.96,41.53,0.19,81.75,MG,East Keith,Illinois,AS39850,"Ortega, Bowman and Gomez Networks"
+419,110,2026-01-18 11:00:00,565.29,253.12,109.27,1.01,55.67,WS,Amandaland,Louisiana,AS5301,Edwards-Pineda Networks
+420,103,2026-01-18 12:00:00,838.06,359.68,82.23,1.78,54.87,GH,New Joshua,New York,AS15399,"Melton, Anderson and Dean Networks"
+421,102,2026-01-18 13:00:00,103.94,48.44,27.77,1.61,75.99,KW,Lake Sarahtown,Pennsylvania,AS26712,"Bennett, Middleton and Rodriguez Networks"
+422,105,2026-01-18 14:00:00,361.61,49.59,119.91,0.25,64.78,EE,East Steven,Massachusetts,AS43032,Bell Ltd Networks
+423,109,2026-01-18 15:00:00,185.69,35.22,102.01,1.01,61.61,PE,South Paul,Wisconsin,AS3158,Williams-Brown Networks
+424,108,2026-01-18 16:00:00,185.59,54.23,11.05,1.54,48.31,CF,West Wendy,Mississippi,AS12155,Powell LLC Networks
+425,105,2026-01-18 17:00:00,69.01,8.94,25.23,0.74,96.98,MH,New Michael,West Virginia,AS43358,"Jenkins, Leblanc and Brown Networks"
+426,108,2026-01-18 18:00:00,130.4,33.42,95.28,0.28,85.19,BB,Floresmouth,Iowa,AS45157,Leach and Sons Networks
+427,103,2026-01-18 19:00:00,216.06,96.07,41.28,0.66,60.43,SY,Kramertown,Nebraska,AS12679,"Bailey, Briggs and Davis Networks"
+428,104,2026-01-18 20:00:00,233.86,40.02,68.58,1.29,91.05,GT,Aaronview,Mississippi,AS46228,"Alvarez, Patrick and Robbins Networks"
+429,103,2026-01-18 21:00:00,192.01,35.18,79.13,1.36,56.88,LY,North Davidborough,Pennsylvania,AS56430,Bates-Saunders Networks
+430,103,2026-01-18 22:00:00,756.97,210.78,18.36,0.12,77.53,DZ,Tammyport,Mississippi,AS4299,Smith and Sons Networks
+431,102,2026-01-18 23:00:00,529.79,120.78,102.03,1.02,66.98,UZ,New Susanville,Connecticut,AS52274,Hughes-Barnes Networks
+432,110,2026-01-19 00:00:00,28.89,7.41,99.48,1.94,93.63,EE,Laurenfort,Oregon,AS44034,Martinez-Herrera Networks
+433,110,2026-01-19 01:00:00,424.58,136.87,89.9,1.61,97.32,HU,East Crystalfurt,Wyoming,AS52557,Robinson Ltd Networks
+434,107,2026-01-19 02:00:00,412.6,151.44,110.18,0.63,79.3,CD,West Alex,North Carolina,AS48579,Vargas-Simmons Networks
+435,108,2026-01-19 03:00:00,895.44,106.55,135.5,0.31,61.93,SG,Nelsontown,Ohio,AS53850,"Lynch, Short and Lara Networks"
+436,106,2026-01-19 04:00:00,314.5,92.72,31.89,1.61,86.57,DK,South Randy,Louisiana,AS45168,"Nguyen, Johnson and Martinez Networks"
+437,105,2026-01-19 05:00:00,57.06,12.23,119.63,0.15,47.32,RW,West Jeremyside,Missouri,AS36039,Sanders-Mcdonald Networks
+438,108,2026-01-19 06:00:00,314.22,71.25,43.67,1.69,56.81,VN,Reeveschester,Utah,AS30703,Hill Inc Networks
+439,102,2026-01-19 07:00:00,217.2,61.21,141.68,0.59,88.11,BE,Roachberg,Florida,AS24999,Clark PLC Networks
+440,108,2026-01-19 08:00:00,136.56,68.15,89.57,1.34,61.22,BO,New Micheal,Colorado,AS9397,Lopez-Gardner Networks
+441,110,2026-01-19 09:00:00,704.83,334.78,82.35,0.38,71.84,FR,Moralesberg,Arkansas,AS59967,"Contreras, Gibson and Wilkerson Networks"
+442,110,2026-01-19 10:00:00,488.81,178.84,50.01,1.51,80.06,UY,Smithport,Indiana,AS59552,"Payne, Hunt and Tran Networks"
+443,103,2026-01-19 11:00:00,597.71,208.05,139.83,1.72,74.57,DJ,East Vickifort,Minnesota,AS53161,"Anderson, Bryan and Fisher Networks"
+444,109,2026-01-19 12:00:00,685.02,331.29,40.19,0.17,48.8,MZ,North Jamesport,Connecticut,AS13740,Johnson Ltd Networks
+445,103,2026-01-19 13:00:00,784.78,312.18,90.17,0.32,86.03,AT,Salasstad,New Mexico,AS26802,"Henderson, Jackson and Thomas Networks"
+446,102,2026-01-19 14:00:00,702.31,184.12,13.47,0.26,97.1,DJ,South Hailey,Michigan,AS10766,Hendrix PLC Networks
+447,109,2026-01-19 15:00:00,135.27,16.16,54.88,1.83,70.75,BG,Rebeccamouth,Nevada,AS26081,Chen Ltd Networks
+448,108,2026-01-19 16:00:00,938.05,246.57,126.86,0.88,75.24,FJ,Kendraburgh,New Mexico,AS15653,"Pitts, Bush and Jackson Networks"
+449,106,2026-01-19 17:00:00,329.25,131.15,124.21,0.74,49.8,LU,New Christopher,Hawaii,AS25984,"Caldwell, Hernandez and Thomas Networks"
+450,101,2026-01-19 18:00:00,267.87,63.76,41.29,1.68,47.46,BZ,Cassidybury,Arizona,AS58707,Alexander-Hughes Networks
+451,110,2026-01-19 19:00:00,863.93,132.66,65.52,1.19,72.65,ZA,Bradbury,Washington,AS57378,Jenkins-Cortez Networks
+452,110,2026-01-19 20:00:00,268.86,105.16,103.24,1.84,47.25,TT,Gibsonchester,Wisconsin,AS5119,Evans-Chan Networks
+453,105,2026-01-19 21:00:00,603.99,139.67,28.73,0.29,72.85,MY,Weaverhaven,Nevada,AS25855,"Lane, Fuentes and Weber Networks"
+454,109,2026-01-19 22:00:00,663.75,284.81,60.35,1.09,40.9,MK,New Chelsea,Wyoming,AS12408,Harvey-Barrett Networks
+455,103,2026-01-19 23:00:00,193.9,70.12,68.62,1.21,63.58,CV,Bennettberg,Mississippi,AS40487,Rush LLC Networks
+456,104,2026-01-20 00:00:00,659.28,265.07,72.85,0.19,60.97,KI,New Deborahview,Georgia,AS54858,Perez Inc Networks
+457,102,2026-01-20 01:00:00,502.79,220.33,92.8,1.8,42.05,FR,Jonesfurt,Wisconsin,AS32597,"Johnson, Sharp and Mcdonald Networks"
+458,107,2026-01-20 02:00:00,740.48,96.39,72.75,0.78,56.68,SK,South Ethan,California,AS26663,Barajas-Holloway Networks
+459,102,2026-01-20 03:00:00,757.36,286.76,92.92,1.65,63.81,KW,Port Cynthiaview,Wisconsin,AS58007,Williams PLC Networks
+460,101,2026-01-20 04:00:00,812.71,310.54,28.72,1.33,64.84,SO,Clarkside,Kentucky,AS27508,"Farley, Jackson and Warner Networks"
+461,109,2026-01-20 05:00:00,659.05,96.3,35.59,1.45,50.8,KG,Carpentermouth,Georgia,AS3303,Smith PLC Networks
+462,102,2026-01-20 06:00:00,780.96,132.33,73.12,1.73,79.94,IS,East Joelberg,Oregon,AS21457,"Marshall, Mclaughlin and Rodriguez Networks"
+463,104,2026-01-20 07:00:00,151.53,27.69,37.52,0.92,53.89,KI,South Andrewville,Nevada,AS12634,"Wilkerson, Bright and Wells Networks"
+464,101,2026-01-20 08:00:00,526.81,182.87,68.91,1.67,89.95,PA,West Allen,Montana,AS39643,"Sutton, Villarreal and Gonzales Networks"
+465,108,2026-01-20 09:00:00,102.54,18.82,112.62,0.58,92.7,SY,Jennachester,Minnesota,AS17428,"Romero, Mcgrath and Contreras Networks"
+466,110,2026-01-20 10:00:00,428.46,156.57,133.64,1.93,59.19,NO,North Ericberg,New York,AS15707,Clark Inc Networks
+467,104,2026-01-20 11:00:00,334.0,75.1,96.78,0.95,66.58,PT,West Elizabeth,Vermont,AS23826,"King, Brown and Mendoza Networks"
+468,107,2026-01-20 12:00:00,343.09,124.45,86.09,0.43,65.76,EE,Angelastad,South Carolina,AS58266,"Underwood, King and Friedman Networks"
+469,103,2026-01-20 13:00:00,837.29,307.04,26.84,0.46,70.17,DO,North Cassandrahaven,Tennessee,AS46777,Reese-Chavez Networks
+470,103,2026-01-20 14:00:00,429.21,137.27,128.46,0.85,74.46,SM,South Shawn,Arkansas,AS42153,Kelly-Odonnell Networks
+471,110,2026-01-20 15:00:00,355.36,46.76,18.78,0.16,88.57,PS,New Angelabury,Nebraska,AS53980,Garcia-Dominguez Networks
+472,110,2026-01-20 16:00:00,206.3,93.61,22.71,0.69,41.63,CR,Port Cynthia,Nevada,AS43153,"Morton, Lozano and Suarez Networks"
+473,104,2026-01-20 17:00:00,425.18,190.85,56.85,0.63,95.65,ZW,South Margaret,Alabama,AS46899,Hartman Group Networks
+474,110,2026-01-20 18:00:00,946.42,361.4,58.73,1.93,66.97,KZ,Bradleyborough,Wyoming,AS46408,"Sanchez, Barton and Smith Networks"
+475,105,2026-01-20 19:00:00,84.57,19.68,121.97,1.76,54.45,GQ,Karamouth,Kansas,AS4057,Merritt Ltd Networks
+476,104,2026-01-20 20:00:00,322.48,111.01,67.23,1.53,65.4,SE,Jamesview,North Dakota,AS15239,Carpenter and Sons Networks
+477,105,2026-01-20 21:00:00,690.41,79.01,25.36,1.03,70.38,DO,South Jessicaberg,Colorado,AS1329,"Fletcher, Houston and Best Networks"
+478,104,2026-01-20 22:00:00,353.9,154.96,120.0,0.03,56.94,AG,Robinsonhaven,Missouri,AS22028,"Brown, Gibson and Gordon Networks"
+479,107,2026-01-20 23:00:00,54.2,20.55,38.76,0.44,79.97,CD,New Shawn,Hawaii,AS27236,Swanson Inc Networks
+480,103,2026-01-21 00:00:00,292.35,79.24,70.05,0.13,73.24,SY,Johnathanfort,Ohio,AS24700,Grant-Farley Networks
+481,102,2026-01-21 01:00:00,550.26,169.51,36.69,1.68,84.87,SK,North Kevinstad,Hawaii,AS41509,"Shaw, Weber and Smith Networks"
+482,110,2026-01-21 02:00:00,98.27,34.93,88.52,0.71,84.48,BW,Humphreyhaven,Iowa,AS30765,"Hancock, Duffy and Curry Networks"
+483,102,2026-01-21 03:00:00,913.75,183.47,81.48,0.4,85.99,LB,Jasonbury,Missouri,AS33884,Johnson PLC Networks
+484,105,2026-01-21 04:00:00,110.25,27.06,136.04,1.71,50.73,RW,Richardport,Kansas,AS30001,Jordan-Perry Networks
+485,109,2026-01-21 05:00:00,946.97,148.14,92.4,0.66,64.5,CY,East Shaneshire,Iowa,AS39234,Lester-Garcia Networks
+486,108,2026-01-21 06:00:00,476.39,169.52,30.04,1.23,93.33,MY,North Jesse,South Carolina,AS46637,Dixon Inc Networks
+487,110,2026-01-21 07:00:00,176.03,30.63,68.21,0.34,40.43,CH,Hoffmanstad,Colorado,AS10394,"Barrera, Reese and Rodriguez Networks"
+488,101,2026-01-21 08:00:00,912.28,195.22,23.69,1.8,56.18,SC,Hurststad,Michigan,AS24575,Pena PLC Networks
+489,105,2026-01-21 09:00:00,547.64,90.69,7.21,0.62,83.2,SM,Michaelstad,Arkansas,AS51702,Young LLC Networks
+490,109,2026-01-21 10:00:00,779.51,373.57,43.55,0.44,85.19,SE,Landryburgh,Oklahoma,AS4153,Frazier Inc Networks
+491,102,2026-01-21 11:00:00,34.87,3.86,84.18,0.8,50.03,DM,West Matthew,Colorado,AS45047,"Navarro, Martin and Miranda Networks"
+492,101,2026-01-21 12:00:00,386.17,116.47,46.42,1.65,68.42,LY,West Antonio,Iowa,AS20225,Moody-Watson Networks
+493,106,2026-01-21 13:00:00,98.98,39.11,14.77,1.78,93.84,LA,South Kimberlymouth,California,AS3432,Pierce-Rangel Networks
+494,104,2026-01-21 14:00:00,96.82,29.22,55.49,0.6,79.53,SC,East Lindabury,Iowa,AS19611,Price Inc Networks
+495,103,2026-01-21 15:00:00,738.11,142.7,98.85,0.26,52.9,TD,Lynnberg,Maine,AS23492,Arroyo LLC Networks
+496,104,2026-01-21 16:00:00,226.49,25.54,121.86,0.85,51.66,GM,Lake Sandra,Colorado,AS44396,"Flowers, Williams and Williams Networks"
+497,103,2026-01-21 17:00:00,216.63,103.8,20.31,0.26,71.03,TO,Boltonfort,Kansas,AS53334,"Frank, Wilkinson and Chen Networks"
+498,106,2026-01-21 18:00:00,149.55,31.56,39.57,0.06,75.3,TV,East Timothy,Louisiana,AS13280,Francis-Robertson Networks
+499,106,2026-01-21 19:00:00,873.64,225.54,79.44,1.25,86.72,ET,Erikstad,Nebraska,AS45605,"Dunn, Winters and Ross Networks"
+500,108,2026-01-21 20:00:00,870.98,117.83,49.73,0.01,61.13,TW,Tiffanyland,Delaware,AS45353,"Nolan, Sims and Baker Networks"

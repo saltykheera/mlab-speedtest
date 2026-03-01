@@ -1158,3 +1158,357 @@ table.alt tfoot {
     transform: rotate(360deg);
   }
 }
+
+/* ============================================
+   View Insight Button (results section)
+   ============================================ */
+.insight-action {
+  margin-top: 1.5em;
+  text-align: center;
+}
+
+.insight-btn {
+  font-size: 0.7em;
+  padding: 0 2.5em;
+  letter-spacing: 0.2em;
+}
+
+.insight-btn .fa {
+  margin-right: 0.5em;
+}
+
+/* ============================================
+   Score Page — layout
+   ============================================ */
+#score-page.fullscreen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#score-page .inner {
+  width: 100%;
+  max-width: 52em;
+  padding: 4em 3em;
+}
+
+/* Loading / Error states */
+.score-loading,
+.score-error {
+  display: flex;
+  align-items: center;
+  gap: 0.75em;
+  padding: 2em 0;
+  font-size: 1em;
+  color: rgba(255,255,255,0.7);
+}
+
+.score-loading .fa {
+  font-size: 1.5em;
+  color: #ffffff;
+}
+
+.score-error {
+  color: #f44336;
+}
+
+.score-error .fa {
+  font-size: 1.5em;
+}
+
+/* ── Score display wrapper ── */
+.score-display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.5em;
+}
+
+/* ── Hero: ring + grade badge + description ── */
+.score-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+}
+
+/* Ring canvas wrapper */
+.score-ring-wrap {
+  position: relative;
+  width: 240px;
+  height: 240px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.score-ring-wrap canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* Number inside ring */
+.score-ring-label {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  line-height: 1;
+}
+
+.score-number {
+  display: block;
+  font-size: 3em;
+  font-weight: bold;
+  color: #ffffff;
+  letter-spacing: -0.02em;
+}
+
+.score-out-of {
+  display: block;
+  font-size: 0.75em;
+  color: rgba(255,255,255,0.45);
+  margin-top: 0.3em;
+  letter-spacing: 0.05em;
+}
+
+/* Grade badge */
+.score-grade {
+  font-size: 0.7em;
+  font-weight: bold;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  padding: 0.45em 1.6em;
+  border-radius: 2em;
+  border: 1px solid;
+}
+
+.grade-excellent { background: rgba(76,175,80,0.15);  border-color: #4caf50; color: #4caf50; }
+.grade-good      { background: rgba(129,199,132,0.12); border-color: #81c784; color: #81c784; }
+.grade-fair      { background: rgba(255,152,0,0.12);  border-color: #ff9800; color: #ff9800; }
+.grade-poor      { background: rgba(244,67,54,0.12);  border-color: #f44336; color: #f44336; }
+.grade-verypoor  { background: rgba(183,28,28,0.12);  border-color: #b71c1c; color: #ef9a9a; }
+
+/* Description */
+.score-description {
+  max-width: 34em;
+  text-align: center;
+  color: rgba(255,255,255,0.55);
+  font-size: 0.9em;
+  line-height: 1.7;
+  margin: 0;
+}
+
+/* ── Metric cards row ── */
+.score-metrics {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1em;
+  width: 100%;
+}
+
+.score-card {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 0.5em;
+  padding: 1.2em 1.4em;
+}
+
+.score-card-icon {
+  font-size: 1.4em;
+  color: rgba(255,255,255,0.35);
+  flex-shrink: 0;
+}
+
+.score-card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2em;
+  min-width: 0;
+}
+
+.score-card-label {
+  font-size: 0.65em;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.45);
+  white-space: nowrap;
+}
+
+.score-card-value {
+  font-size: 1em;
+  font-weight: bold;
+  color: #ffffff;
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 980px) {
+  .score-metrics {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .score-metrics {
+    grid-template-columns: 1fr;
+  }
+
+  #score-page .inner {
+    padding: 2.5em 1.5em;
+  }
+}
+
+/* ============================================
+   Use-case breakdown section
+   ============================================ */
+.usecase-section {
+  width: 100%;
+  margin-top: 0.5em;
+}
+
+.usecase-heading {
+  font-size: 0.75em;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.4);
+  font-weight: bold;
+  margin-bottom: 1em;
+  display: flex;
+  align-items: center;
+  gap: 0.6em;
+}
+
+.usecase-heading .fa {
+  font-size: 1.1em;
+}
+
+.usecase-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.85em;
+}
+
+/* Individual use-case card */
+.usecase-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6em;
+  padding: 1.1em 1.3em;
+  border-radius: 0.5em;
+  border: 1px solid rgba(255,255,255,0.08);
+  background: rgba(255,255,255,0.04);
+  transition: border-color 0.2s ease, background 0.2s ease;
+}
+
+.usecase-card.supported {
+  border-color: rgba(76,175,80,0.35);
+  background: rgba(76,175,80,0.06);
+}
+
+.usecase-card.partial {
+  border-color: rgba(255,152,0,0.35);
+  background: rgba(255,152,0,0.06);
+}
+
+.usecase-card.not-supported {
+  border-color: rgba(244,67,54,0.25);
+  background: rgba(244,67,54,0.04);
+}
+
+/* Card header row: icon + name + status dot */
+.usecase-card-header {
+  display: flex;
+  align-items: center;
+  gap: 0.6em;
+}
+
+.usecase-icon {
+  font-size: 1.1em;
+  color: rgba(255,255,255,0.3);
+  flex-shrink: 0;
+  width: 1.2em;
+  text-align: center;
+}
+
+.usecase-card.supported   .usecase-icon { color: #4caf50; }
+.usecase-card.partial     .usecase-icon { color: #ff9800; }
+.usecase-card.not-supported .usecase-icon { color: rgba(255,255,255,0.2); }
+
+.usecase-name {
+  font-size: 0.78em;
+  font-weight: bold;
+  letter-spacing: 0.06em;
+  text-transform: capitalize;
+  color: #ffffff;
+  flex: 1;
+}
+
+.usecase-status-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.usecase-card.supported     .usecase-status-dot { background: #4caf50; }
+.usecase-card.partial       .usecase-status-dot { background: #ff9800; }
+.usecase-card.not-supported .usecase-status-dot { background: rgba(255,255,255,0.2); }
+
+/* Mini bar */
+.usecase-bar-track {
+  height: 3px;
+  border-radius: 2px;
+  background: rgba(255,255,255,0.08);
+  overflow: hidden;
+}
+
+.usecase-bar-fill {
+  height: 100%;
+  border-radius: 2px;
+  transition: width 0.6s ease;
+}
+
+.usecase-card.supported     .usecase-bar-fill { background: #4caf50; }
+.usecase-card.partial       .usecase-bar-fill { background: #ff9800; }
+.usecase-card.not-supported .usecase-bar-fill { background: rgba(255,255,255,0.15); }
+
+/* Experience label + score */
+.usecase-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.usecase-experience {
+  font-size: 0.62em;
+  color: rgba(255,255,255,0.4);
+  letter-spacing: 0.04em;
+  line-height: 1.4;
+}
+
+.usecase-card.supported     .usecase-experience { color: rgba(76,175,80,0.8); }
+.usecase-card.partial       .usecase-experience { color: rgba(255,152,0,0.8); }
+
+.usecase-score {
+  font-size: 0.7em;
+  font-weight: bold;
+  color: rgba(255,255,255,0.3);
+}
+
+.usecase-card.supported     .usecase-score { color: #4caf50; }
+.usecase-card.partial       .usecase-score { color: #ff9800; }
+
+@media screen and (max-width: 980px) {
+  .usecase-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .usecase-grid {
+    grid-template-columns: 1fr;
+  }
+}

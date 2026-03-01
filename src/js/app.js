@@ -33,6 +33,7 @@ const SpeedTest = {
       measurementSpace: document.getElementById('measurementSpace'),
       progressSection: document.getElementById('progressSection'),
       resultsSection: document.getElementById('resultsSection'),
+      viewInsightBtn: document.getElementById('viewInsightBtn'),
 
       // Results
       location: document.getElementById('ndtLocation'),
@@ -94,6 +95,50 @@ const SpeedTest = {
     // Show/hide progress vs results
     this.els.progressSection.style.display = this.measurementComplete ? 'none' : 'block';
     this.els.resultsSection.style.display = this.measurementComplete ? 'block' : 'none';
+
+    // Update insight button link when results are available
+    if (this.measurementComplete) {
+      this.updateInsightButton();
+    }
+  },
+
+  /**
+   * Parse a numeric value from a result string like "12.34 Mb/s" or "20 ms" or "0.10%".
+   */
+  parseNumeric(str) {
+    if (!str) return null;
+    const match = str.match(/[\d.]+/);
+    return match ? parseFloat(match[0]) : null;
+  },
+
+  /**
+   * Build the best available metric from NDT and MSAK results,
+   * then set the href on the View Insight button.
+   */
+  updateInsightButton() {
+    // Prefer MSAK values when available, fall back to NDT
+    const download = this.parseNumeric(this.msakResult.download) ||
+                     this.parseNumeric(this.measurementResult.s2cRate);
+    const upload   = this.parseNumeric(this.msakResult.upload) ||
+                     this.parseNumeric(this.measurementResult.c2sRate);
+    const latency  = this.parseNumeric(this.msakResult.latency) ||
+                     this.parseNumeric(this.measurementResult.latency);
+
+    // packet loss: strip '%', divide by 100 to get a fraction
+    const lossStr  = this.msakResult.loss || this.measurementResult.loss;
+    let packetLoss = null;
+    if (lossStr) {
+      const raw = this.parseNumeric(lossStr);
+      if (raw !== null) packetLoss = raw / 100;
+    }
+
+    const params = new URLSearchParams();
+    if (download  !== null) params.set('download', download);
+    if (upload    !== null) params.set('upload', upload);
+    if (latency   !== null) params.set('latency', latency);
+    if (packetLoss !== null) params.set('loss', packetLoss);
+
+    this.els.viewInsightBtn.href = `score.html?${params.toString()}`;
   },
 
   async startTest() {

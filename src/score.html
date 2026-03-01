@@ -1,0 +1,128 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <title>Speed Insight | Measurement Lab</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="assets/images/mlab_logo_m.ico">
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+
+    <!-- Sidebar -->
+    <section id="sidebar">
+      <div class="inner">
+        <nav>
+          <ul>
+            <li><a href="index.html#intro" data-i18n>Measure</a></li>
+            <li><a href="index.html#about" data-i18n>About</a></li>
+            <li><a href="index.html#contact" data-i18n>Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </section>
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+      <!-- Score Section -->
+      <section id="score-page" class="wrapper style1 fullscreen">
+        <div class="inner">
+
+          <!-- Loading state -->
+          <div id="scoreLoading" class="score-loading">
+            <i class="fa fa-circle-o-notch fa-spin" aria-hidden="true"></i>
+            <span data-i18n>Calculating your score…</span>
+          </div>
+
+          <!-- Error state -->
+          <div id="scoreError" class="score-error" style="display:none;">
+            <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+            <span id="scoreErrorMsg"></span>
+          </div>
+
+          <!-- Score display -->
+          <div id="scoreDisplay" class="score-display" style="display:none;">
+
+            <!-- Ring + grade -->
+            <div class="score-hero">
+              <div class="score-ring-wrap">
+                <canvas id="scoreGauge" width="240" height="240"></canvas>
+                <div class="score-ring-label">
+                  <span id="scoreValue" class="score-number">—</span>
+                  <span class="score-out-of">/ 100</span>
+                </div>
+              </div>
+              <div id="scoreLabel" class="score-grade"></div>
+              <p id="scoreDesc" class="score-description"></p>
+            </div>
+
+            <!-- Metric cards -->
+            <div id="inputSummary" class="score-metrics">
+              <div class="score-card">
+                <i class="fa fa-download score-card-icon" aria-hidden="true"></i>
+                <div class="score-card-body">
+                  <span class="score-card-label" data-i18n>Download</span>
+                  <strong id="summaryDownload" class="score-card-value">—</strong>
+                </div>
+              </div>
+              <div class="score-card">
+                <i class="fa fa-upload score-card-icon" aria-hidden="true"></i>
+                <div class="score-card-body">
+                  <span class="score-card-label" data-i18n>Upload</span>
+                  <strong id="summaryUpload" class="score-card-value">—</strong>
+                </div>
+              </div>
+              <div class="score-card">
+                <i class="fa fa-hourglass-start score-card-icon" aria-hidden="true"></i>
+                <div class="score-card-body">
+                  <span class="score-card-label" data-i18n>Latency</span>
+                  <strong id="summaryLatency" class="score-card-value">—</strong>
+                </div>
+              </div>
+              <div class="score-card">
+                <i class="fa fa-signal score-card-icon" aria-hidden="true"></i>
+                <div class="score-card-body">
+                  <span class="score-card-label" data-i18n>Packet Loss</span>
+                  <strong id="summaryLoss" class="score-card-value">—</strong>
+                </div>
+              </div>
+            </div>
+
+          </div><!-- /#scoreDisplay -->
+
+          <!-- Use-case breakdown -->
+          <div id="useCaseSection" class="usecase-section" style="display:none;">
+            <h3 class="usecase-heading">
+              <i class="fa fa-wifi" aria-hidden="true"></i>
+              <span data-i18n>What can your connection handle?</span>
+            </h3>
+            <div id="useCaseGrid" class="usecase-grid"></div>
+          </div>
+
+          <ul class="actions" style="margin-top: 2rem;">
+            <li><a href="index.html" class="button"><i class="fa fa-arrow-left" aria-hidden="true"></i> <span data-i18n>Run Another Test</span></a></li>
+          </ul>
+
+        </div>
+      </section>
+
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer" class="wrapper style1-alt">
+      <div class="inner">
+        <ul class="menu">
+          <li><a href="http://www.measurementlab.net/">Measurement Lab</a></li>
+          <li>Template: <a href="http://html5up.net">HTML5 UP</a></li>
+          <li><a href="http://www.measurementlab.net/privacy/" data-i18n>Privacy Policy</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/i18n.js"></script>
+    <script src="js/score.js"></script>
+
+  </body>
+</html>
