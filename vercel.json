@@ -1,0 +1,5 @@
+{
+  "buildCommand": "npm install && node scripts/build.js prod",
+  "outputDirectory": "dist",
+  "installCommand": "npm install"
+}
